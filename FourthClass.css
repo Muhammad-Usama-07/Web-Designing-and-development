@@ -20,3 +20,8 @@ p b{
     color: blueviolet;
     background-color: aqua;
 }
+
+h1+p{
+    
+    background-color: bisque;
+}
