@@ -21,7 +21,7 @@ p b{
     background-color: aqua;
 }
 
-h1+p{
+h1~p{
     
-    background-color: bisque;
+    background-color: brown;
 }
