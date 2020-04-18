@@ -1,3 +1,12 @@
 .top_heading{
     background-color: #F7D406;
+    text-align: center;
+}
+.welcome_head{
+    font-size: 10px;
+}
+.Assign1{
+    border: 1px solid green;
+    width: 130px;
+    height: 130px;
 }
