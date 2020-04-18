@@ -16,16 +16,25 @@
     width: 130px;
     height: 130px;
     float: left;
+    text-align: center;
+    font-family: cursive;
 }.Assign2{
     border: 1px solid Black;
     width: 130px;
     height: 130px;
     float: left;
     margin-left: 20px;
+    text-align: center;
+    font-family: cursive;
 }.Assign3{
     border: 1px solid Black;
     width: 130px;
     height: 130px;
     float: left;
     margin-left: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+.first_box_head{
+    
 }
