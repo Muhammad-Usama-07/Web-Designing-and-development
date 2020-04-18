@@ -35,6 +35,7 @@
     text-align: center;
     font-family: cursive;
 }
-.first_box_head{
-    
+.box_details{
+    font-size: 60%;
+    line-height: 1.9;
 }
