@@ -5,10 +5,13 @@
 // =(Assigning operator)
 // 5(initialiazation)
 // ;(statement terminator)
-var a = 5;
-var b = 5;
-var c = a + b;
+//var a = 5;
+//var b = 5;
+//var c = a + b;
 
 //alert(c)
+var a = 5;
+var b = "ali";
+var c = a + b;
 
-console.log(c)
+alert(c)
