@@ -42,3 +42,13 @@ text-white-50
 .bg-dark
 .bg-white
 .bg-transparent
+
+# Step to learn bootstrap
+*************************
+
+1. Layout
+   grid system
+2. utilities
+3. Components
+
+
