@@ -10,8 +10,13 @@
 //var c = a + b;
 
 //alert(c)
-var a = 5;
-var b = "ali";
-var c = a + b;
+//var a = 5;
+//var b = "ali";
+//var c = a + b;
 
-alert(c)
+//alert(c)
+
+//Using Camel case
+
+var chatApp = 50;
+alert(chatApp)

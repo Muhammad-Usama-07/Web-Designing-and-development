@@ -51,4 +51,10 @@ text-white-50
 2. utilities
 3. Components
 
+# Javascript
+************
+
+1. String
+2. Concatination
+
 
