@@ -18,5 +18,11 @@
 
 //Using Camel case
 
-var chatApp = 50;
-alert(chatApp)
+//var chatApp = 50;
+//alert(chatApp)
+
+var a = 3;
+var b = 5;
+var c = 7;
+var d = b-a*c;
+alert(d);
