@@ -20,13 +20,21 @@
 //    alert("your age is greater")
 //}
 
-var a  = +prompt("Enter Your age: ")
-var gender = prompt("Enter Your gender: ")
-if(a>18 && gender=="Male"){
-    alert("you are allowed")
+//var a  = +prompt("Enter Your age: ")
+//var gender = prompt("Enter Your gender: ")
+//if(a>18 && gender=="Male"){
+  //  alert("you are allowed")
+//}
+//else{
+//    alert("you are not allowed")
+//}
+
+var a  ="5"
+if(a == 5){
+    alert("True")
 }
 else{
-    alert("you are not allowed")
+    alert("False")
 }
 
 
