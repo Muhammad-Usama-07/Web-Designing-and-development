@@ -10,7 +10,7 @@
 
 //Conditional statement
 var age = 26
-if(age==26){
+if(age<26){
     alert("your age is less")
 }
 else{
