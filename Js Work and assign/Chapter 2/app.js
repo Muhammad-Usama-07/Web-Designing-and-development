@@ -14,7 +14,10 @@ alert(a + "\n"
       +a.substring(0,a.length -1)+"\n"
       +a.substring(0,a.length -2)+"\n"
       +a.substring(0,a.length -3)+"\n"
-      +a.substring(0,a.length -4));*/
+      +a.substring(0,a.length -4));
 var email = "Rajmail11@gmail.com"
-alert("My email address is " + email)
+alert("My email address is " + email)*/
+var book = "A smarter \nway to learn JavaScript"
+alert("I am trying to learn the Book "+book)
+
 
