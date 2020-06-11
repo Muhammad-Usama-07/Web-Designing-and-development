@@ -1,1 +1,2 @@
-var username;
+//var username;
+//var myName = "Muhammad Usama";
