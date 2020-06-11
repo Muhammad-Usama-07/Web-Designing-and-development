@@ -1,7 +1,7 @@
 /*var name = "john";
 var age = 25;
 var gender = "Male";
-document.write("His name is "+name+"<br>age is: "+age+"<br>gender is: "+gender)*/
+document.write("His name is "+name+"<br>age is: "+age+"<br>gender is: "+gender)
 
 // 5 legal variable names
 var abcs;
@@ -14,4 +14,24 @@ var 123abcs;
 var abd hdh = "Hello";
 var xe_as%ss$;
 var x, = "foot";
-var a = 1,2,3,3,3;
+var a = 1,2,3,3,3;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
