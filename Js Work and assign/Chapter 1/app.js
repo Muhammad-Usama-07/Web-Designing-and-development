@@ -2,6 +2,7 @@
 
 //alert("Error! Please enter a valid Password")
 
-alert("Welcome to JS Land...\nHappy Coding!")
+alert("Welcome to JS Land...")
+alert("Happy Coding!")
 
 
