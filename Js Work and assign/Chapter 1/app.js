@@ -4,5 +4,5 @@
 
 //alert("Welcome to JS Land...")
 //alert("Happy Coding!")
-console.log("Hello...I can run JS through my browser's consol")
+//console.log("Hello...I can run JS through my browser's consol")
 
