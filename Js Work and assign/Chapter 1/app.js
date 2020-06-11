@@ -1,0 +1,1 @@
+alert("Hay, Welcome to our website")
