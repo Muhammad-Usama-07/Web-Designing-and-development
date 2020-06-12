@@ -14,4 +14,6 @@ document.write("<br>Mode of "+a+" and " +b+" is "+mod)*/
 
 
 var a =3 ;
-document.write("Initial value: "+a);
+//document.write("Initial value: "+a);
+a++;
+
