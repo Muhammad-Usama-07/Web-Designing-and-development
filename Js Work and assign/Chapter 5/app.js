@@ -16,7 +16,7 @@ document.write("<br>Mode of "+a+" and " +b+" is "+mod)*/
 var a =5 ;
 //document.write("Initial value: "+a);
 a++;
-a+7
+a+7;
 a--;
-//document.write("Value after increment is: "+a)
+document.write("Value after decrement is: "+a)
 
