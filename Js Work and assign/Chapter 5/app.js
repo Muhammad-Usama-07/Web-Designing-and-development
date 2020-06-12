@@ -13,7 +13,8 @@ document.write("<br>Division of "+a+" and " +b+" is "+Division)
 document.write("<br>Mode of "+a+" and " +b+" is "+mod)*/
 
 
-var a =3 ;
+var a =5 ;
 //document.write("Initial value: "+a);
 a++;
+document.write("Value after increment is: "+a)
 
