@@ -10,7 +10,7 @@ document.write("Sum of "+a+" and " +b+" is "+addition)
 document.write("<br>Difference of "+a+" and " +b+" is "+subtraction)
 document.write("<br>Multiplication of "+a+" and " +b+" is "+multiplication)
 document.write("<br>Division of "+a+" and " +b+" is "+Division)
-document.write("<br>Mode of "+a+" and " +b+" is "+mod)*/
+document.write("<br>Mode of "+a+" and " +b+" is "+mod)
 
 
 var a =5 ;
@@ -18,5 +18,7 @@ a = a++;
 a = a+7;
 a = a--;
 a = a%3;
-document.write("Value after decrement is: "+a)
-
+document.write("Value after decrement is: "+a)*/
+var a = 600;
+var result = a*5;
+document.write("Total cost to buy 5 tickets to a movie is "+result+"PKR")
