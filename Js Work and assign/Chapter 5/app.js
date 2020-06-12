@@ -17,5 +17,6 @@ var a =5 ;
 //document.write("Initial value: "+a);
 a++;
 a+7
-document.write("Value after addition is: "+a)
+a--;
+//document.write("Value after increment is: "+a)
 
