@@ -14,3 +14,4 @@ document.write("<br>Mode of "+a+" and " +b+" is "+mod)*/
 
 
 var a;
+document.write("Value after variable declaration is: "+a);
