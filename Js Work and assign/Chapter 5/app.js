@@ -17,5 +17,6 @@ var a =5 ;
 a = a++;
 a = a+7;
 a = a--;
+a = a%3;
 document.write("Value after decrement is: "+a)
 
