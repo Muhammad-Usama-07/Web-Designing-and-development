@@ -13,5 +13,5 @@ document.write("<br>Division of "+a+" and " +b+" is "+Division)
 document.write("<br>Mode of "+a+" and " +b+" is "+mod)*/
 
 
-var a;
-document.write("Value after variable declaration is: "+a);
+var a =3 ;
+//document.write("Value after variable declaration is: "+a);
