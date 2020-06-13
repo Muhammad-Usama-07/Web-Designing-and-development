@@ -18,7 +18,12 @@ a = a++;
 a = a+7;
 a = a--;
 a = a%3;
-document.write("Value after decrement is: "+a)*/
+document.write("Value after decrement is: "+a)
 var a = 600;
 var result = a*5;
-document.write("Total cost to buy 5 tickets to a movie is "+result+"PKR")
+document.write("Total cost to buy 5 tickets to a movie is "+result+"PKR")*/
+document.write("Table");
+var num = 4;
+for(var i = 1; i<=10; i++){
+    document.write("<br>"+num+"x"+i+"="+i*num);
+}
