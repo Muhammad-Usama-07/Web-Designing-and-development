@@ -57,15 +57,19 @@ var percentage  =(obtai_marks/total_marks)*100;
 document.write("<h1>Mark Sheet</h1><br><br>");
 document.write("Total Marks: "+total_marks);
 document.write("<br>Obtained Marks: "+obtai_marks);
-document.write("<br>Percentage: "+percentage+"%");*/
+document.write("<br>Percentage: "+percentage+"%");
 
 var US = 10;
 var Saudi_arab = 25;
 var result = (104.80*US)+(28*Saudi_arab);
 
 document.write("<h1>Currency in PKR</h1><br><br>");
-document.write("Total Currency in PKR: "+result)
+document.write("Total Currency in PKR: "+result)*/
 
+var num = 7;
+num = (num+5)*10/2;
+
+document.write("The result = "+num)
 
 
 
