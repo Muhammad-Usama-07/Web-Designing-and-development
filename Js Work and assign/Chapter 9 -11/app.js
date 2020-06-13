@@ -64,12 +64,43 @@ alert("True");
 }
 if (false){
 alert("False");
-}*/
+}
 
 
  if("car" < "cat"){
 alert("car is smaller than cat");
+}*/
+
+var total_marks = 300;
+var obtained_marks = prompt("Enter obtained marks: ");
+obtained_marks =  parseInt(obtained_marks)
+var percentage = (obtained_marks/total_marks)*100;
+percentage =  parseInt(percentage)
+
+document.write("<h1>Mark Sheet</h1><br><br>")
+document.write("<br>Total Marks: "+total_marks)
+document.write("<br>Marks Obtained: "+obtained_marks)
+if(percentage >=80){
+    document.write("<br>Percentage: "+percentage+"%")
+    document.write("<br>Grade: A-one")
+    document.write("<br>Remarks: Excellent")
 }
+else if(percentage >=70){
+    document.write("<br>Percentage: "+percentage+"%")
+    document.write("<br>Grade: A")
+    document.write("<br>Remarks: Good")
+}
+else if(percentage >=60){
+    document.write("<br>Percentage: "+percentage+"%")
+    document.write("<br>Grade: B")
+    document.write("<br>Remarks: you need to imrove")
+}
+else if(percentage <60){
+    document.write("<br>Percentage: "+percentage+"%")
+    document.write("<br>Grade: Fail")
+    document.write("<br>Remarks: Sorry")
+}
+
 
 
 
