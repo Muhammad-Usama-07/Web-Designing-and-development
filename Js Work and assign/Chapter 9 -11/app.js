@@ -116,12 +116,12 @@ for(var i = 1; i<=10; i++){
 
 var num = prompt("Enter number: ");
 num = parseInt(num);
-var result = num%3;
+var result = num%2;
 if(result == 1){
-    document.write("number is not divisible by 3");
+    document.write("number is odd");
    }
 else if(result == 0){
-    document.write("number is divisible by 3");
+    document.write("number is even");
 }
 
 
