@@ -64,13 +64,20 @@ var Saudi_arab = 25;
 var result = (104.80*US)+(28*Saudi_arab);
 
 document.write("<h1>Currency in PKR</h1><br><br>");
-document.write("Total Currency in PKR: "+result)*/
+document.write("Total Currency in PKR: "+result)
 
 var num = 6;
 num = (num+5)*10/2;
 
-document.write("The result = "+num);
+document.write("The result = "+num);*/
 
+var current_year = 2016;
+var birth_year = 1992;
+var your_age = current_year-birth_year;
+document.write("<h1>Age Calculator</h1><br><br>");
+document.write("<br>Current Year: "+current_year)
+document.write("<br>Birth Year: "+birth_year)
+document.write("<br>Your Age: "+your_age)
 
 
 
