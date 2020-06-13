@@ -18,7 +18,20 @@ var a = 2, b = 1;
 var result = --a - --b + ++b + b--;
 document.write("a is "+a)
 document.write("<br>b is "+b)
-document.write("<br>result is "+result)*/
+document.write("<br>result is "+result)
 
 var user = prompt("Enter Name:");
-alert("Welcome "+user);
+alert("Welcome "+user);*/
+
+var x = (prompt("Enter number: "));
+var a = 5;
+document.write("<h2>Table</h2><br>")
+for(var i =1; i<=10; i++){
+    if(x = parseInt(x)){
+        
+        document.write(x+"x"+i+"="+x*i+"<br>")
+    }
+    else{
+        document.write(a+"x"+i+"="+a*i+"<br>")
+    }
+}
