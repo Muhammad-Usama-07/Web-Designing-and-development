@@ -122,7 +122,7 @@ if(result == 1){
    }
 else if(result == 0){
     document.write("number is even");
-}*/
+}
 
 var temp = prompt("Enter Temperature: ");
 if(temp > 40){
@@ -136,10 +136,40 @@ else if(temp > 20){
 }
 else if(temp > 10){
     document.write("OMG! Today’s weather is so Cool.");
+}*/
+
+//Calculator
+
+
+var operation = prompt("Enter operation: \n1. +\n2. -\n3. *\n4. /\n5. %");
+var first_number = prompt("Enter first number: ");
+first_number = parseInt(first_number);
+var second_number = prompt("Enter second number: ");
+second_number = parseInt(second_number);
+var result;
+if(operation == "1"){
+    result = first_number+second_number;
+    document.write("The addition of two number is: "+result);
+   }
+else if(operation == "2"){
+    result = first_number-second_number;
+    document.write("The subtration of two number is: "+result);
 }
-
-
-
+else if(operation == "3"){
+    result = first_number*second_number;
+    document.write("The multiplication of two number is: "+result);
+}
+else if(operation == "4"){
+    result = first_number/second_number;
+    document.write("The division of two number is: "+result);
+}
+else if(operation == "5"){
+    result = first_number%second_number;
+    document.write("The modulus of two number is: "+result);
+}
+else if(operation == ""){
+    document.write("You entered invalid operation");
+}
 
 
 
