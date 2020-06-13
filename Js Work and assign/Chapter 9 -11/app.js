@@ -48,7 +48,7 @@ alert("condition 3 is true");
 }
 if(c === 14){
 alert("condition 4 is true");
-}*/
+}
 
 
 var materialCost = 20000;
@@ -56,7 +56,16 @@ var laborCost = 2000;
 var totalCost = materialCost + laborCost;
 if (totalCost === laborCost + materialCost){
 alert("The cost equals");
+}*/
+
+
+ if (true){
+alert("True");
 }
+if (false){
+alert("False");
+}
+
 
 
 
