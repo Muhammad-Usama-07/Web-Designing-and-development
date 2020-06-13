@@ -100,7 +100,7 @@ else if(percentage <60){
     document.write("<br>Grade: Fail")
     document.write("<br>Remarks: Sorry")
 }
-*/
+
 var num = prompt("Enter any number from 1-10: ");
 
 for(var i = 1; i<=10; i++){
@@ -112,9 +112,17 @@ for(var i = 1; i<=10; i++){
         document.write("Close enough to the correct answer");
         break;
     }
+}*/
+
+var num = prompt("Enter number: ");
+num = parseInt(num);
+var result = num%3;
+if(result == 1){
+    document.write("number is not divisible by 3");
+   }
+else if(result == 0){
+    document.write("number is divisible by 3");
 }
-
-
 
 
 
