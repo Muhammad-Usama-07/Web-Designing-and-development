@@ -20,11 +20,14 @@ else if(user =="Yellow"){
 }
 else if(user =="Green"){
     alert("Move now");
-}*/
+}
 var current_fuel= parseInt(prompt("Enter Fuel in car: "));
 if(current_fuel <0.25){
     alert("Please refill the fuel in your car");
+}*/
+ var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
 }
-
 
 
