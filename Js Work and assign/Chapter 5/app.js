@@ -49,7 +49,7 @@ document.write("<br>Quantity of item 1 is "+item1_Quantitiy);
 document.write("<br>Price of item 2 is "+item2_price);
 document.write("<br>Quantity of item 1 is "+item2_Quantitiy);
 document.write("<br>Shipping Charges "+shipping_charge+"<br><br>");
-document.write("Total cost of your order is "+result);*/
+document.write("Total cost of your order is "+result);
 
 var total_marks = 980;
 var obtai_marks = 804;
@@ -57,8 +57,14 @@ var percentage  =(obtai_marks/total_marks)*100;
 document.write("<h1>Mark Sheet</h1><br><br>");
 document.write("Total Marks: "+total_marks);
 document.write("<br>Obtained Marks: "+obtai_marks);
-document.write("<br>Percentage: "+percentage+"%");
+document.write("<br>Percentage: "+percentage+"%");*/
 
+var US = 10;
+var Saudi_arab = 25;
+var result = (104.80*US)+(28*Saudi_arab);
+
+document.write("<h1>Currency in PKR</h1><br><br>");
+document.write("Total Currency in PKR: "+result)
 
 
 
