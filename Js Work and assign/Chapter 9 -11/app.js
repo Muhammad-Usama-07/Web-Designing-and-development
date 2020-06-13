@@ -1,5 +1,8 @@
-var user = prompt("Enter city: ");
-if(user =="Karachi"){
-    alert("Welcome to the city of lights");
+var user = prompt("Write your gender: ");
+if(user =="male"){
+    alert("Good Morning sir");
+}
+else if(user =="female"){
+    alert("Good Morning Ma'am");
 }
 
