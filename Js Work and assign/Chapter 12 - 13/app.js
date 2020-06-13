@@ -58,7 +58,7 @@ if (hour < 18) {
     greeting = "Good day";
 else
     greeting = "Good evening";
-}*/
+}
 
 var timee = prompt("Enter time: ");
 timee = parseInt(timee);
@@ -71,7 +71,7 @@ for(var i = 1; i <=24; i++){
         document.write(timee+"am")
         break;
     }
-}
+}*/
 
 
 
