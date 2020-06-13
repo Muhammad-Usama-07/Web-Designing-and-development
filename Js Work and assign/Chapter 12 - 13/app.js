@@ -17,8 +17,8 @@ if(num1>num2){
    }
 else{
     document.write("second number greater than first.")
-}*/
 
+}
 var num = prompt("Enter numebr: ");
 num = parseInt(num);
 if(num>0){
@@ -29,4 +29,28 @@ else if(num<0){
 }
 else{
     document.write("number is equal to zero.");
+}*/
+
+
+var char = prompt("Enter numebr: ");
+if(char == 'a' || char == 'e'||char == 'i'|| char == 'o'||char == 'u'){
+   document.write("true");
+   }
+
+else{
+    document.write("false");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
