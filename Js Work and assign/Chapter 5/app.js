@@ -79,13 +79,17 @@ document.write("<br>Current Year: "+current_year)
 document.write("<br>Birth Year: "+birth_year)
 document.write("<br>Your Age: "+your_age)*/
 
-var Radius = 20;
-var Circumfarence = 2*(3.14)*Radius;
-var Area = (3.14)*Radius*Radius;
-document.write("<h1>The Geometizer</h1><br><br>");
-document.write("<br>Radius of a Circle: "+Radius)
-document.write("<br>The Circumfarence is: "+Circumfarence)
-document.write("<br>The area: "+Area)
+var Favourite_Snack = "chocolate chip";
+var Current_age = 15;
+var maximum_age = 65;
+var amount = 3;
+var Result = (maximum_age-Current_age)*amount;
+document.write("<h1>The Lifetime Supply Calculator</h1><br><br>");
+document.write("<br>Favourite Snack: "+Favourite_Snack);
+document.write("<br>Current Age: "+Current_age);
+document.write("<br>Estimated Maximum Age: "+maximum_age);
+document.write("<br>Amount of Snack per day: "+amount);
+document.write("<br>You will need "+Result+" to last you until the ripe old age of: "+amount);
 
 
 
