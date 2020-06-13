@@ -9,8 +9,8 @@ if(user =="male"){
 }
 else if(user =="female"){
     alert("Good Morning Ma'am");
-}*/
 
+}
 var user = prompt("Enter Signal Colour: ");
 if(user =="Red"){
     alert("Must be Stop");
@@ -20,6 +20,11 @@ else if(user =="Yellow"){
 }
 else if(user =="Green"){
     alert("Move now");
+}*/
+var current_fuel= parseInt(prompt("Enter Fuel in car: "));
+if(current_fuel <0.25){
+    alert("Please refill the fuel in your car");
 }
+
 
 
