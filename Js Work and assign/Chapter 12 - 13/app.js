@@ -29,8 +29,8 @@ else if(num<0){
 }
 else{
     document.write("number is equal to zero.");
-}*/
 
+}
 
 var char = prompt("Enter numebr: ");
 if(char == 'a' || char == 'e'||char == 'i'|| char == 'o'||char == 'u'){
@@ -39,8 +39,19 @@ if(char == 'a' || char == 'e'||char == 'i'|| char == 'o'||char == 'u'){
 
 else{
     document.write("false");
-}
+}*/
 
+var passs = "12aa";
+var user_pass = prompt("Enter your password");
+if(user_pass == passs){
+    document.write("Correct!");
+}
+else if(user_pass != psass){
+    document.write("Incorrect password");
+}
+else if(user_pass == ""){
+        document.write("Please enter your password");
+        }
 
 
 
