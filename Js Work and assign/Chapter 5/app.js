@@ -33,7 +33,7 @@ var F = (C*9/5)+32;
 document.write(C+"\xB0C is "+F+"\xB0F");
 F = 70;
 C = (F-32)*5/9;
-document.write("<br>"+F+"\xB0F is "+C+"\xB0C");*/
+document.write("<br>"+F+"\xB0F is "+C+"\xB0C");
 
 var item1_price = 650;
 var item2_price = 100;
@@ -49,8 +49,15 @@ document.write("<br>Quantity of item 1 is "+item1_Quantitiy);
 document.write("<br>Price of item 2 is "+item2_price);
 document.write("<br>Quantity of item 1 is "+item2_Quantitiy);
 document.write("<br>Shipping Charges "+shipping_charge+"<br><br>");
-document.write("Total cost of your order is "+result);
+document.write("Total cost of your order is "+result);*/
 
+var total_marks = 980;
+var obtai_marks = 804;
+var percentage  =(obtai_marks/total_marks)*100;
+document.write("<h1>Mark Sheet</h1><br><br>");
+document.write("Total Marks: "+total_marks);
+document.write("<br>Obtained Marks: "+obtai_marks);
+document.write("<br>Percentage: "+percentage+"%");
 
 
 
