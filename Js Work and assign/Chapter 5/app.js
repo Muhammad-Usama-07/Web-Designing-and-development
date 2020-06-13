@@ -26,13 +26,54 @@ document.write("Table");
 var num = 4;
 for(var i = 1; i<=10; i++){
     document.write("<br>"+num+"x"+i+"="+i*num);
-}*/
+}
 
 var C = 25;
 var F = (C*9/5)+32;
 document.write(C+"\xB0C is "+F+"\xB0F");
 F = 70;
 C = (F-32)*5/9;
-document.write("<br>"+F+"\xB0F is "+C+"\xB0C");
+document.write("<br>"+F+"\xB0F is "+C+"\xB0C");*/
+
+var item1_price = 650;
+var item2_price = 100;
+var item1_Quantitiy = 3;
+var item2_Quantitiy = 7;
+var shipping_charge = 100;
+
+
+var result = (item1_price*item1_Quantitiy)+(item2_price*item2_Quantitiy)+shipping_charge;
+document.write("<h1>Shopping Cart</h1><br><br>");
+document.write("Price of item 1 is "+item1_price);
+document.write("<br>Quantity of item 1 is "+item1_Quantitiy);
+document.write("<br>Price of item 2 is "+item2_price);
+document.write("<br>Quantity of item 1 is "+item2_Quantitiy);
+document.write("<br>Shipping Charges "+shipping_charge+"<br><br>");
+document.write("Total cost of your order is "+result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
