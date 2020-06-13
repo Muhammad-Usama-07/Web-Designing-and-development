@@ -136,7 +136,7 @@ else if(temp > 20){
 }
 else if(temp > 10){
     document.write("OMG! Today’s weather is so Cool.");
-}*/
+}
 
 //Calculator
 
@@ -169,7 +169,7 @@ else if(operation == "5"){
 }
 else if(operation == ""){
     document.write("You entered invalid operation");
-}
+}*/
 
 
 
