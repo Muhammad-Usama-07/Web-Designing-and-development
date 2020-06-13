@@ -51,16 +51,27 @@ else if(user_pass != psass){
 }
 else if(user_pass == ""){
         document.write("Please enter your password");
-        }*/
+        }
 var greeting;
 var hour = 13;
 if (hour < 18) {
     greeting = "Good day";
 else
     greeting = "Good evening";
+}*/
+
+var timee = prompt("Enter time: ");
+timee = parseInt(timee);
+for(var i = 1; i <=24; i++){
+    if(timee>=1 && timee<=12){
+        document.write(timee+"pm")
+        break;
+    }
+    else if(timee>=13 && timee<=24){
+        document.write(timee+"am")
+        break;
+    }
 }
-
-
 
 
 
