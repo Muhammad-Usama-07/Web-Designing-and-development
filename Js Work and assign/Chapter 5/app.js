@@ -66,10 +66,10 @@ var result = (104.80*US)+(28*Saudi_arab);
 document.write("<h1>Currency in PKR</h1><br><br>");
 document.write("Total Currency in PKR: "+result)*/
 
-var num = 7;
+var num = 6;
 num = (num+5)*10/2;
 
-document.write("The result = "+num)
+document.write("The result = "+num);
 
 
 
