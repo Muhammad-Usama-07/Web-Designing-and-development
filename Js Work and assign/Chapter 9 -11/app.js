@@ -69,7 +69,7 @@ alert("False");
 
  if("car" < "cat"){
 alert("car is smaller than cat");
-}*/
+}
 
 var total_marks = 300;
 var obtained_marks = prompt("Enter obtained marks: ");
@@ -100,7 +100,19 @@ else if(percentage <60){
     document.write("<br>Grade: Fail")
     document.write("<br>Remarks: Sorry")
 }
+*/
+var num = prompt("Enter any number from 1-10: ");
 
+for(var i = 1; i<=10; i++){
+    if(num == i){
+        document.write("Bingo! Correct answer");
+        break;
+    }
+    else if(num == i+1){
+        document.write("Close enough to the correct answer");
+        break;
+    }
+}
 
 
 
