@@ -21,9 +21,18 @@ a = a%3;
 document.write("Value after decrement is: "+a)
 var a = 600;
 var result = a*5;
-document.write("Total cost to buy 5 tickets to a movie is "+result+"PKR")*/
+document.write("Total cost to buy 5 tickets to a movie is "+result+"PKR")
 document.write("Table");
 var num = 4;
 for(var i = 1; i<=10; i++){
     document.write("<br>"+num+"x"+i+"="+i*num);
-}
+}*/
+
+var C = 25;
+var F = (C*9/5)+32;
+document.write(C+"\xB0C is "+F+"\xB0F");
+F = 70;
+C = (F-32)*5/9;
+document.write("<br>"+F+"\xB0F is "+C+"\xB0C");
+
+
