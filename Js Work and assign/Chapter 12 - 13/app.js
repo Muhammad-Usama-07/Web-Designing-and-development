@@ -39,7 +39,7 @@ if(char == 'a' || char == 'e'||char == 'i'|| char == 'o'||char == 'u'){
 
 else{
     document.write("false");
-}*/
+}
 
 var passs = "12aa";
 var user_pass = prompt("Enter your password");
@@ -51,7 +51,14 @@ else if(user_pass != psass){
 }
 else if(user_pass == ""){
         document.write("Please enter your password");
-        }
+        }*/
+var greeting;
+var hour = 13;
+if (hour < 18) {
+    greeting = "Good day";
+else
+    greeting = "Good evening";
+}
 
 
 
