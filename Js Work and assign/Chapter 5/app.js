@@ -69,7 +69,7 @@ document.write("Total Currency in PKR: "+result)
 var num = 6;
 num = (num+5)*10/2;
 
-document.write("The result = "+num);*/
+document.write("The result = "+num);
 
 var current_year = 2016;
 var birth_year = 1992;
@@ -77,7 +77,15 @@ var your_age = current_year-birth_year;
 document.write("<h1>Age Calculator</h1><br><br>");
 document.write("<br>Current Year: "+current_year)
 document.write("<br>Birth Year: "+birth_year)
-document.write("<br>Your Age: "+your_age)
+document.write("<br>Your Age: "+your_age)*/
+
+var Radius = 20;
+var Circumfarence = 2*(3.14)*Radius;
+var Area = (3.14)*Radius*Radius;
+document.write("<h1>The Geometizer</h1><br><br>");
+document.write("<br>Radius of a Circle: "+Radius)
+document.write("<br>The Circumfarence is: "+Circumfarence)
+document.write("<br>The area: "+Area)
 
 
 
