@@ -14,4 +14,7 @@ document.write("<h1>Qualification</h1><br><br>");
 for(var i = 1; i<=arr4.length; i++){
     document.write(i+") "+arr4[i-1]+"<br>");
 }*/
+var arr = [320,230,480,120];
 
+document.write("Score of Students: "+arr)
+document.write("<br>Score of Students: "+arr.sort())
