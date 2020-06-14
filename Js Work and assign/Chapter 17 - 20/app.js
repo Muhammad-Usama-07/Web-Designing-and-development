@@ -6,8 +6,16 @@ for(var i = 0; i < 4; i++){
         document.write(arr[i][j]);
     }
     document.write("<br>")
-}*/
+}
 
 for(var i = 1; i<=10; i++){
     document.write(i+"<br>")
+}*/
+
+var table_num = prompt("Enter Table number: ");
+var lenght = prompt("Enter lenght: ")
+lenght = parseInt(lenght);
+document.write("Multiplication of Table number "+table_num+" <br>Lenght "+lenght+"<br><br>")
+for(var i = 1; i <=lenght; i++){
+    document.write(table_num+"x"+i+"="+table_num*i+"<br>");
 }
