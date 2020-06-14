@@ -88,7 +88,18 @@ for (i=0; i<=larg;i++){
 
 document.write("<br>"+"The largest number is: "+larg)
 */
+var A = [24, 53, 78, 91, 12];
 
+document.write("Array items: "+A);
+var larg= A[0];
+
+for (i=0; i<=larg;i++){
+    if (A[i]<larg) {
+        var larg=A[i];
+    }
+}
+
+document.write("<br>"+"The Smallest number is: "+larg)
 
 
 
