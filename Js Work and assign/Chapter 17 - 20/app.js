@@ -73,7 +73,7 @@ for(var i = 0; i<=A.length; i++){
         document.write("We are sorry "+search+" is not available in our Bakery");
         break;
     }
-}*/
+}
 
 var A = [24, 53, 78, 91, 12];
 
@@ -87,7 +87,7 @@ for (i=0; i<=larg;i++){
 }
 
 document.write("<br>"+"The largest number is: "+larg)
-
+*/
 
 
 
