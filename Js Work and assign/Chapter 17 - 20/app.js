@@ -87,7 +87,7 @@ for (i=0; i<=larg;i++){
 }
 
 document.write("<br>"+"The largest number is: "+larg)
-*/
+
 var A = [24, 53, 78, 91, 12];
 
 document.write("Array items: "+A);
@@ -101,9 +101,13 @@ for (i=0; i<=larg;i++){
 
 document.write("<br>"+"The Smallest number is: "+larg)
 
-
-
-
+*/
+document.write("Here Multiples of 5 ranging 1 to 100.<br><br>");
+for ( var i=1; i<=100;i++){
+    if (i%5 == 0) {
+        document.write(i+", ")
+    }
+}
 
 
 
