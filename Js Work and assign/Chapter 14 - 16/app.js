@@ -25,13 +25,25 @@ document.write("Cities list: <br>"+arr1)
 for(var i = 2; i<=3;i++){
     arr2.push(arr1[i])
 }
-document.write("<br>Selected Cities list: <br>"+arr2)*/
+document.write("<br>Selected Cities list: <br>"+arr2)
 
 
 var arr = ["This "," is ", " my ", " cat"];
 document.write("Array: <br>"+arr+"<br><br>");
 var sstring = arr.join("");
-document.write("String: <br>"+sstring);
+document.write("String: <br>"+sstring);*/
+
+var arr = ["Keyboard","Mouse", "Printer", "Moniter"];
+document.write("Array: <br>"+arr+"<br><br>");
+var arr2 = [];
+
+for(var i = 0 ; i<=3; i++){
+    arr2.push(arr[i]);
+}
+for(var i = 0 ; i<=3; i++){
+    document.write("Out:<br>"+arr2[i]+"<br>")
+}
+
 
 
 
