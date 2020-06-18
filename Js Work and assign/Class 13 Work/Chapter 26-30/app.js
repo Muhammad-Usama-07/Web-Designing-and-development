@@ -1,4 +1,4 @@
-/**/
+/*
 // Using Math function.
 
 // Using math.round 
@@ -8,3 +8,9 @@ var result = Math.round(a);
 var result2 = Math.ceil(a);
 var result3 = Math.floor(b);
 document.write(result+"\n"+result2+"\n"+result3);
+*/
+
+// generating random numbers
+
+document.write(Math.random())
+
