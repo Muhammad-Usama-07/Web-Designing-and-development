@@ -57,13 +57,17 @@ var text = "The New Yorker magazine doesn't allow the phrase 'World War II. ' Th
 var indexx = text.lastIndexOf("New");
 var new_text = text.slice(0,indexx) + 'new ' +text.slice(indexx+3);
 document.write(new_text);
-*/
 
-// Replacing word in a sentence. 
+
+// Replacing first word in a sentence. 
 var text = "The New Yorker magazine";
 var rep_after = text.replace("Yorker", "York")
 document.write(rep_after);
-
+*/
+// Replacing word and its duplicate in a sentence. 
+var text = "The New Yorker magazine in Yorker";
+var rep_after = text.replace(/Yorker/g, "York")
+document.write(rep_after);
 
 
 
