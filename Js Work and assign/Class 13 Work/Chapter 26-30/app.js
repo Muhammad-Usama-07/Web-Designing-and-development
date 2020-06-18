@@ -32,10 +32,14 @@ else{
 
 var num = 12
 alert(Number(num));
-*/
+
 var num = 12
 alert(parseInt(num));
+*/
+// Converting number to string 
 
+var num = 10.233
+alert(num.toString())
 
 
 
