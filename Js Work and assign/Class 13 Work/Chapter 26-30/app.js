@@ -40,13 +40,13 @@ alert(parseInt(num));
 
 var num = 10.233
 alert(num.toString())
-*/
+
 
 
 //Controlling length of Decimal.
 var num = 10.82724762
 alert(num.toFixed(3))
-
+*/
 
 
 
