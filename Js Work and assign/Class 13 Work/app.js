@@ -52,7 +52,7 @@ var new_text = text.slice(0,indexx) + 'The Second World War' +text.slice(indexx+
 document.write(new_text);
 */
 
-// Short method of Replacing sentence from the last in a text
+// Short method of Replacing sentence from the last in a text.
 var text = "The New Yorker magazine doesn't allow the phrase 'World War II. ' They say it should be 'the Second World War.' So let's search the following sentence for the banned characters and replace them with the phrase that the New Yorker prefers."
 var indexx = text.lastIndexOf("New");
 var new_text = text.slice(0,indexx) + 'new ' +text.slice(indexx+3);
