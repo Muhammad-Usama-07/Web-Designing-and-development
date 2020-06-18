@@ -44,16 +44,19 @@ text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
 }
 
 document.write(text);
-*/
+
 // Short method of Replacing sentence in a text program in java script.
 var text = "The New Yorker magazine doesn't allow the phrase 'World War II. ' They say it should be 'the Second World War.' So let's search the following sentence for the banned characters and replace them with the phrase that the New Yorker prefers."
 var indexx = text.indexOf("World War II");
 var new_text = text.slice(0,indexx) + 'The Second World War' +text.slice(indexx+12);
 document.write(new_text);
+*/
 
-
-
-
+// Short method of Replacing sentence from the last in a text
+var text = "The New Yorker magazine doesn't allow the phrase 'World War II. ' They say it should be 'the Second World War.' So let's search the following sentence for the banned characters and replace them with the phrase that the New Yorker prefers."
+var indexx = text.lastIndexOf("New");
+var new_text = text.slice(0,indexx) + 'new ' +text.slice(indexx+3);
+document.write(new_text);
 
 
 
