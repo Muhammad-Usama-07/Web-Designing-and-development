@@ -63,12 +63,12 @@ document.write(new_text);
 var text = "The New Yorker magazine";
 var rep_after = text.replace("Yorker", "York")
 document.write(rep_after);
-*/
+
 // Replacing word and its duplicate in a sentence. 
 var text = "The New Yorker magazine in Yorker";
 var rep_after = text.replace(/Yorker/g, "York")
 document.write(rep_after);
-
+*/
 
 
 
