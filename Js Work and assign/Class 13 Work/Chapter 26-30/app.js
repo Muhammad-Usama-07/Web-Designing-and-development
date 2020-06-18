@@ -13,7 +13,7 @@ document.write(result+"\n"+result2+"\n"+result3);
 // generating random numbers
 
 document.write(Math.random())
-*/
+
 
 // Creating head tail game
 var headUser = prompt("Enter Head User: ");
@@ -27,6 +27,8 @@ else{
     alert("'heads' "+headUser+" wins")
 }
 
+*/
+// Converting string into integar
 
 
 
