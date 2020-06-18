@@ -27,13 +27,14 @@ else{
     alert("'heads' "+headUser+" wins")
 }
 
-*/
+
 // Converting string into integar
 
 var num = 12
 alert(Number(num));
-
-
+*/
+var num = 12
+alert(parseInt(num));
 
 
 
