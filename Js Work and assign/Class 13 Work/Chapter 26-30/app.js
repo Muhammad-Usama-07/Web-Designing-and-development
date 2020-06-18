@@ -30,7 +30,8 @@ else{
 */
 // Converting string into integar
 
-
+var num = 12
+alert(Number(num));
 
 
 
