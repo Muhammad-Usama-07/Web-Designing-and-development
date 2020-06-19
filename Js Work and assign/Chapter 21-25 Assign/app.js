@@ -42,14 +42,33 @@ var str = "472";
 var integar = Number(str);
 document.write("value: "+str+" and its type: String<br><br>")
 document.write("value: "+integar+" and its type: number")
-*/
+
 // Question # 10
 var userInput = prompt("Enter Your Text: ")
 document.write("User Input: "+userInput+"<br><br>")
 document.write("Upper Case: "+userInput.toUpperCase()+"<br>")
+*/
+// Question # 11
+var userInput = prompt("Enter Your Text: ");
+var totitle = userInput.charAt(0).toUpperCase();
+var string = totitle+userInput.slice(1);
+document.write("User Input: "+userInput+"<br><br>");
+document.write("Title Case: "+string+"<br>");
 // Question # 1
 // Question # 1
-// Question # 1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
