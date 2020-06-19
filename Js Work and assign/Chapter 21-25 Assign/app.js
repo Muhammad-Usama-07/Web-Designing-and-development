@@ -122,17 +122,20 @@ var university = "University of Karachi";
 for(var i = 0; i<=university.length-1; i++){
     document.write(university.charAt(i)+"<br>")
 }
-*/  
+  
 // Question # 17
 var string = prompt("Enter string: ");
 document.write("User input: "+str+"<br>");
 document.write("Last Character of input: "+string.charAt(string.length-1));
-
+*/
 
 // Question # 18
 
-
-
+var text = "The quick brown fox jumps over the lazy dog"
+var word = "The"
+var ocurr = text.match(/The/g).length + text.match(/the/g).length;
+document.write("Text: "+text+"<br>")
+document.write("There are "+ocurr+" occurrence of word 'the'")
 
 
 
