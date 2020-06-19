@@ -60,7 +60,7 @@ var num  = 35.36;
 var str = num.toString()
 document.write("Number: "+num+"<br><br>")
 document.write("Result: "+str.replace(".",""))
-*/
+
 // Question # 13
     //frist method
 var username = prompt("Enter Username");
@@ -80,7 +80,16 @@ if(username.includes("!") == true || username.includes(",") == true || username.
 else{
     document.write("Welcome")
 }
+*/
 // Question # 14
+var user_Input = prompt("Enter What u want?")
+var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+for(var i = 0; i<=A.length-1; i++){
+    if(user_Input == A[i].toUpperCase() || user_Input == A[i].toLowerCase() ){
+        alert(user_Input.toLowerCase()+" is available at index "+i+" in our Bakery");
+        break;
+    }
+}
 // Question # 15
 // Question # 16
 // Question # 17
