@@ -114,7 +114,7 @@ else{
         alert("Lenth must be less or equal to 6")
     }
 }
-*/  
+
 
 // Question # 16
 
@@ -122,7 +122,13 @@ var university = "University of Karachi";
 for(var i = 0; i<=university.length-1; i++){
     document.write(university.charAt(i)+"<br>")
 }
+*/  
 // Question # 17
+var string = prompt("Enter string: ");
+document.write("User input: "+str+"<br>");
+document.write("Last Character of input: "+string.charAt(string.length-1));
+
+
 // Question # 18
 
 
