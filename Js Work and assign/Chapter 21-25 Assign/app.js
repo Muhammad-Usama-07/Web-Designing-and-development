@@ -22,12 +22,15 @@ var string = "Pakistani"
 document.write("String: "+string+"<br>Character at index 3: "+string.charAt(3))
 */
 // Question # 6
+var firstname = "Usama"
+var lastname = " Rajput"
+document.write("Welcome "+firstname.concat(lastname))
 // Question # 7
-var text = "Hyderabad"
-var indexx = text.indexOf("Hyder");
-var new_text = text.slice(0,indexx) + 'Islam' +text.slice(indexx+5);
-document.write("City: "+text+"<br>")
-document.write("After Replacment: "+new_text);
+//var text = "Hyderabad"
+//var indexx = text.indexOf("Hyder");
+//var new_text = text.slice(0,indexx) + 'Islam' +text.slice(indexx+5);
+//document.write("City: "+text+"<br>")
+//document.write("After Replacment: "+new_text);
 // Question # 1
 // Question # 1
 // Question # 1
