@@ -8,12 +8,14 @@ alert(title);
 // Question # 2
 var phone = prompt("Enter your favorite mobile model: ");
 document.write("Your Favorite mobile model is: "+phone+"<br>Leght of String: "+phone.length);
-*/
+
 // Question # 3
 var string = "Pakistani"
 document.write("String: "+string+"<br>index of 'n': "+string.indexOf("n"))
-
-// Question # 1
+*/
+// Question # 4
+var string = "Hello World"
+document.write("String: "+string+"<br>index of 'n': "+string.lastIndexOf("l"))
 // Question # 1
 // Question # 1
 // Question # 1
