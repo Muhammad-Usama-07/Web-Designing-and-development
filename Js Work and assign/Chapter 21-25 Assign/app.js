@@ -54,13 +54,28 @@ var totitle = userInput.charAt(0).toUpperCase();
 var string = totitle+userInput.slice(1);
 document.write("User Input: "+userInput+"<br><br>");
 document.write("Title Case: "+string+"<br>");
-*/
+
 // Question # 12
 var num  = 35.36;
 var str = num.toString()
 document.write("Number: "+num+"<br><br>")
 document.write("Result: "+str.replace(".",""))
-// Question # 1
+*/
+// Question # 13
+    //frist method
+var username = prompt("Enter Username");
+var special_char =  ["!",",",".","@"];
+for(var i = 0;i<=special_char.length-1;i++){
+    if(username.includes(special_char[i]) ==true){
+        alert("Please enter valid username");
+        break;
+    }
+}
+// Question # 14
+// Question # 15
+// Question # 16
+// Question # 17
+// Question # 18
 
 
 
