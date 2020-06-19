@@ -47,14 +47,19 @@ document.write("value: "+integar+" and its type: number")
 var userInput = prompt("Enter Your Text: ")
 document.write("User Input: "+userInput+"<br><br>")
 document.write("Upper Case: "+userInput.toUpperCase()+"<br>")
-*/
+
 // Question # 11
 var userInput = prompt("Enter Your Text: ");
 var totitle = userInput.charAt(0).toUpperCase();
 var string = totitle+userInput.slice(1);
 document.write("User Input: "+userInput+"<br><br>");
 document.write("Title Case: "+string+"<br>");
-// Question # 1
+*/
+// Question # 12
+var num  = 35.36;
+var str = num.toString()
+document.write("Number: "+num+"<br><br>")
+document.write("Result: "+str.replace(".",""))
 // Question # 1
 
 
