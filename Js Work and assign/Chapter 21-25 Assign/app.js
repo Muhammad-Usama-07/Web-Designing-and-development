@@ -37,12 +37,16 @@ var message = "Ali and Sami are best friends. They play cricket and football tog
 document.write("Your String is: "+message+"<br><br>");
 var after_replace = message.replace(/and/g,"&");
 document.write("String after replacement: "+after_replace);
-*/
+// Question # 9
 var str = "472";
 var integar = Number(str);
 document.write("value: "+str+" and its type: String<br><br>")
 document.write("value: "+integar+" and its type: number")
-// Question # 9
+*/
+// Question # 10
+var userInput = prompt("Enter Your Text: ")
+document.write("User Input: "+userInput+"<br><br>")
+document.write("Upper Case: "+userInput.toUpperCase()+"<br>")
 // Question # 1
 // Question # 1
 // Question # 1
