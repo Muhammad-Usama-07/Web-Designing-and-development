@@ -16,11 +16,17 @@ document.write("String: "+string+"<br>index of 'n': "+string.indexOf("n"))
 // Question # 4
 var string = "Hello World"
 document.write("String: "+string+"<br>index of 'n': "+string.lastIndexOf("l"))
-*/
+
 // Question # 5
 var string = "Pakistani"
 document.write("String: "+string+"<br>Character at index 3: "+string.charAt(3))
-// Question # 1
+*/
+// Question # 6
+var text = "Hyderabad"
+var indexx = text.indexOf("Hyder");
+var new_text = text.slice(0,indexx) + 'Islam' +text.slice(indexx+5);
+document.write("City: "+text+"<br>")
+document.write("After Replacment: "+new_text);
 // Question # 1
 // Question # 1
 // Question # 1
