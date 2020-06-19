@@ -80,7 +80,7 @@ if(username.includes("!") == true || username.includes(",") == true || username.
 else{
     document.write("Welcome")
 }
-*/
+
 // Question # 14
 var user_Input = prompt("Enter What u want?")
 var A = ["cake", "apple pie", "cookie", "chips", "patties"];
@@ -90,7 +90,35 @@ for(var i = 0; i<=A.length-1; i++){
         break;
     }
 }
+
+for(var i=32;i<48;++i){
+    document.write(String.fromCharCode(i)+"<br>");
+}
+
+*/
 // Question # 15
+
+var password = prompt("Enter Password: \nPassword must contain numbers and alphabets");
+var at0 = password.charAt(0);
+var at1 = password.charAt(0);
+
+if(at0 == Number(at0)){
+    alert("Password can not begin with numbers\nPlease enter valid username")
+}
+
+else{
+    if(password.length <= 6){
+        alert("Welcome our web")
+        }
+    else{
+        alert("Lenth must be less or equal to 6")
+    }
+}
+    
+
+
+
+
 // Question # 16
 // Question # 17
 // Question # 18
