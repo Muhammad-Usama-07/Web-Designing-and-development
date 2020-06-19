@@ -31,13 +31,18 @@ var indexx = text.indexOf("Hyder");
 var new_text = text.slice(0,indexx) + 'Islam' +text.slice(indexx+5);
 document.write("City: "+text+"<br>")
 document.write("After Replacment: "+new_text);
-*/
+
 // Question # 8
 var message = "Ali and Sami are best friends. They play cricket and football together.";
 document.write("Your String is: "+message+"<br><br>");
 var after_replace = message.replace(/and/g,"&");
 document.write("String after replacement: "+after_replace);
-// Question # 1
+*/
+var str = "472";
+var integar = Number(str);
+document.write("value: "+str+" and its type: String<br><br>")
+document.write("value: "+integar+" and its type: number")
+// Question # 9
 // Question # 1
 // Question # 1
 // Question # 1
