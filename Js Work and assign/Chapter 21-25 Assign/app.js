@@ -95,7 +95,7 @@ for(var i=32;i<48;++i){
     document.write(String.fromCharCode(i)+"<br>");
 }
 
-*/
+
 // Question # 15
 
 var password = prompt("Enter Password: \nPassword must contain numbers and alphabets");
@@ -114,12 +114,14 @@ else{
         alert("Lenth must be less or equal to 6")
     }
 }
-    
-
-
-
+*/  
 
 // Question # 16
+
+var university = "University of Karachi";
+for(var i = 0; i<=university.length-1; i++){
+    document.write(university.charAt(i)+"<br>")
+}
 // Question # 17
 // Question # 18
 
