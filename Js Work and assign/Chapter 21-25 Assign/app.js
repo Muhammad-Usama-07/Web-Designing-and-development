@@ -22,6 +22,7 @@ var string = "Pakistani"
 document.write("String: "+string+"<br>Character at index 3: "+string.charAt(3))
 */
 // Question # 6
+// Question # 7
 var text = "Hyderabad"
 var indexx = text.indexOf("Hyder");
 var new_text = text.slice(0,indexx) + 'Islam' +text.slice(indexx+5);
