@@ -12,11 +12,14 @@ document.write("Your Favorite mobile model is: "+phone+"<br>Leght of String: "+p
 // Question # 3
 var string = "Pakistani"
 document.write("String: "+string+"<br>index of 'n': "+string.indexOf("n"))
-*/
+
 // Question # 4
 var string = "Hello World"
 document.write("String: "+string+"<br>index of 'n': "+string.lastIndexOf("l"))
-// Question # 1
+*/
+// Question # 5
+var string = "Pakistani"
+document.write("String: "+string+"<br>Character at index 3: "+string.charAt(3))
 // Question # 1
 // Question # 1
 // Question # 1
