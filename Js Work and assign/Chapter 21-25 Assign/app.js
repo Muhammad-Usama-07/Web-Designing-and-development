@@ -64,12 +64,11 @@ document.write("Result: "+str.replace(".",""))
 // Question # 13
     //frist method
 var username = prompt("Enter Username");
-var special_char =  ["!",",",".","@"];
-for(var i = 0;i<=special_char.length-1;i++){
-    if(username.includes(special_char[i]) ==true){
-        alert("Please enter valid username");
-        break;
-    }
+if(username.includes("!") == true || username.includes(",") == true || username.includes(".") == true|| username.includes("@") == true){
+    document.write("Please enter valid username")
+}
+else{
+    document.write("Welcome")
 }
 // Question # 14
 // Question # 15
