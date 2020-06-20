@@ -30,13 +30,27 @@ if(num == 1){
 else if(num == 2){
     document.write("Random con value: Tails");
 }
-*/
+
 // Question # 6
 var num = Math.floor(Math.random()*100)+1;
 if(num == 84){
     document.write("random number between 1 and 100: "+num);
 }
-// Question # 3
+*/
+// Question # 7
+var weight = prompt("Enter your weight in kilogram")
+var b ;
+document.write("The weight of user is ")
+for(var i = 0; i<=weight.length-1;i++){
+    var a = weight.charAt(i);
+    if(a <= parseFloat(a)){
+        //a = a.toString() 
+        document.write(a)
+        
+    }
+}
+document.write(" Kilograms")
+
 // Question # 3
 // Question # 3
 // Question # 3
