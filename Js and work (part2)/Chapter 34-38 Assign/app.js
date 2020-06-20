@@ -119,19 +119,32 @@ function areaOfRectangle(weight, height){
 }
 var height = 4;
 areaOfRectangle(2, height);
-*/
+
 // Question # 10
 function check(string){
     if(string == "palindrome"){
         alert("Your String is a "+string);
     }
     else{
-        alert("Your String is not a palindrome")
+        alert("Your String is not a palindrome  ")
     }
 }
 var str = prompt("Enter Your String: ");
 check(str);
+*/
 // Question # 11
+function toouppercase(str)
+{
+  var arr = str.split(' ');
+  var Uppernowarr = [];
+    
+  for(var x = 0; x < arr.length; x++){
+      Uppernowarr.push(arr[x].charAt(0).toUpperCase()+arr[x].slice(1));
+  }
+  return Uppernowarr.join(' ');
+}
+var str = "the quick brown fox";
+alert(toouppercase(str));
 // Question # 12
 // Question # 13
 // Question # 14
