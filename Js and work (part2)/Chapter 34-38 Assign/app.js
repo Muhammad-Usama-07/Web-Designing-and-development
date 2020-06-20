@@ -176,7 +176,7 @@ function occurence(string, letter){
 var str = "JSResourceS.com";
 var lett = "o";
 occurence(str, lett)
-*/
+
 // Question # 14
 
 function calcCircumference(radius){
@@ -191,7 +191,7 @@ var radius = 3;;
 calcArea(radius);
 calcCircumference(radius);
 
-
+*/
 
 
 
