@@ -92,14 +92,21 @@ var current = new Date();
 document.write("current date: "+current+"<br>")
 var pre = current.setHours(current.getHours()-1);
 document.write("1 hour ago, it was : "+current+"<br>")
-*/
+
 // Question # 12
 var current = new Date();
 document.write("current date: "+current+"<br>")
 var pre = current.setDate(current.getDate()-100);
 var pre2 = current.setFullYear(current.getYear()-100)
 document.write("100 years back, it was : "+current+"<br>")
+*/
 // Question # 13
+var age = prompt("Enter your age: ");
+age = parseInt(age);
+var birthday = new Date();
+document.write("Your age is: "+age+"<br>");
+document.write("Your Birth Year is: "+(birthday.getFullYear()-age)+"<br>");
+
 // Question # 14
 
 
