@@ -77,7 +77,7 @@ function square(var1){
 var num = prompt("Enter number: ");
 num = parseInt(num);
 square(num);
-*/
+
 // Question # 07
 function count(var1, var2){
     
@@ -91,10 +91,44 @@ var end = prompt("Enter end: ");
 start = parseInt(start);
 end = parseInt(end);
 count(start, end);
+*/
+ 
 // Question # 08
+function calculateHypotenuse(var1, var2){
+    
+    function calculateSquare(var3){
+        var result =  (var3*var3);
+        return result;
+    }
+    var bas = calculateSquare(var1);
+    var per = calculateSquare(var2);
+    var Hypotenuse = bas+per;
+    Hypotenuse = Math.sqrt(Hypotenuse)
+    alert("Hypotenuse = "+Hypotenuse);
+}
+var base = prompt("Enter base:");
+base = parseInt(base);
+var perpendicular = prompt("Enter perpendicular:");
+perpendicular = parseInt(perpendicular);
+calculateHypotenuse(base, perpendicular);
+
 // Question # 09
 // Question # 10
 // Question # 11
 // Question # 12
 // Question # 13
 // Question # 14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
