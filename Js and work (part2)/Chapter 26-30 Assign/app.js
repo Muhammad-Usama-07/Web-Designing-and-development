@@ -50,7 +50,7 @@ for(var i = 0; i<=weight.length-1;i++){
     }
 }
 document.write(" Kilograms")
-*/
+
 
 // Question # 8
 
@@ -70,7 +70,7 @@ while(i<=10){
     }
     
 }
-
+*/
 
 
 
