@@ -99,20 +99,37 @@ document.write("current date: "+current+"<br>")
 var pre = current.setDate(current.getDate()-100);
 var pre2 = current.setFullYear(current.getYear()-100)
 document.write("100 years back, it was : "+current+"<br>")
-*/
+
 // Question # 13
 var age = prompt("Enter your age: ");
 age = parseInt(age);
 var birthday = new Date();
 document.write("Your age is: "+age+"<br>");
 document.write("Your Birth Year is: "+(birthday.getFullYear()-age)+"<br>");
-
+*/
 // Question # 14
+var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "aug", "Sep", "Oct", "nov", "Dec"]
+var current = new Date();
+var current_month = current.getMonth();
+var charge_per_unit = 16;
+var late_payment = 350;
+var Customar_name = prompt("Enter Your name: ");
+var NO_of_units = prompt("Tell me NO: of units");
+
+//Net Amount Payable (within Due Date)
+var NAP = NO_of_units*charge_per_unit;
+//Gross Amount Payable (after Due Date)
+var GAP = NAP+late_payment;
 
 
-
-
-
+document.write("<h2>K-Electric Bill</h2><br><br>");
+document.write("Customar Name: "+Customar_name+"<br>");
+document.write("Month: "+months[current_month]+"<br>");
+document.write("Number of units: "+NO_of_units+"<br>");
+document.write("Charge per unit: "+charge_per_unit+"<br><br>");
+document.write("Net Amount Payable (within Due Date): "+NAP+"<br>");
+document.write("Late payment surcharge: "+late_payment+"<br>");
+document.write("Gross Amount Payable (after Due Date): "+GAP+"<br>");
 
 
 
