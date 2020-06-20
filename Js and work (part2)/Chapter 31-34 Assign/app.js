@@ -16,7 +16,7 @@ var current = new Date();
 var current_day = current.getDay();
 var day_list = ["Sun", "Mon","Tue","Wed","Thus","Fri","Sat"]
 alert("Today is "+day_list[current_day])
-*/
+
 // Question # 4
 var current = new Date();
 var current_day = current.getDay();
@@ -26,7 +26,37 @@ if(current_day == 0 || current_day == 6){
 else{
     alert("It's Normal today")
 }
+*/
+// Question # 5
+var current = new Date();
+var current_date = current.getDate();
+if(current_date < 16){
+    alert("First fifteen days of the month")
+}
+else{
+    alert("Last days of the month")
+}
 // Question # 1
 // Question # 1
 // Question # 1
-// Question # 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
