@@ -145,7 +145,7 @@ function toouppercase(str)
 }
 var str = "the quick brown fox";
 alert(toouppercase(str));
-*/
+
 // Question # 12
 function FindLarge(string){
     var str = string.split(" ");
@@ -161,8 +161,21 @@ function FindLarge(string){
 }
 var string = "Web Development Tutorial";
 alert(FindLarge(string));
-
+*/
 // Question # 13
+function occurence(string, letter){
+    var count = 0;
+    for(var i = 0; i<=string.length; i++){
+        
+        if(string.charAt(i)==letter){
+           count = count+1;
+           }
+    }
+    alert(count);
+}
+var str = "JSResourceS.com";
+var lett = "o";
+occurence(str, lett)
 // Question # 14
 
 
