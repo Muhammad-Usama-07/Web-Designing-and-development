@@ -64,7 +64,7 @@ function square(var1){
 var num = prompt("Enter number: ");
 num = parseInt(num);
 square(num);
-*/
+
 // Question # 06
 function square(var1){
     var num = 1;
@@ -77,7 +77,20 @@ function square(var1){
 var num = prompt("Enter number: ");
 num = parseInt(num);
 square(num);
+*/
 // Question # 07
+function count(var1, var2){
+    
+    for(var i = var1; i<=var2;i++){
+        document.write(i+"<br>")
+        
+    }
+}
+var start = prompt("Enter start: ");
+var end = prompt("Enter end: ");
+start = parseInt(start);
+end = parseInt(end);
+count(start, end);
 // Question # 08
 // Question # 09
 // Question # 10
