@@ -72,7 +72,7 @@ var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
   
 //To display the final no. of days (result) 
 document.write(Difference_In_Days +" days have passed since 1st Ramzan, 2015"); 
-*/
+
 
 // Question # 10
 var date1 = new Date("01/01/2015");
@@ -86,7 +86,13 @@ Difference_In_Time = (Difference_In_Time/60)*60;
 //To display the final no. of days (result) 
 document.write("On reference date "+date2+"<br>"); 
 document.write(Difference_In_Time +" seconds have passed since Beginning, 2015"); 
+*/
 // Question # 11
+var current = new Date();
+document.write("current date: "+current+"<br>")
+var pre = current.setHours(current.getHours()-1);
+document.write("1 hour ago, it was : "+current+"<br>")
+
 // Question # 12
 // Question # 13
 // Question # 14
