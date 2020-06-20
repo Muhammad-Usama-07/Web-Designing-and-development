@@ -12,14 +12,14 @@ var lastname = prompt("Enter last name: ");
 greeting(firstname,lastname);
 */
 // Question # 03
-function greeting(var1, var2){
+function Addition(var1, var2){
     alert("The addition of the numbers is: "+(var1+ var2));
 }
 var firstname = prompt("Enter first name: ");
 firstname = parseInt(firstname);
 var lastname = prompt("Enter last name: ");
-lastname = parseInt(lastname);
-greeting(firstname,lastname);
+lastname = parseInt(lastname)
+Addition(firstname,lastname);
 // Question # 04
 // Question # 05
 // Question # 06
