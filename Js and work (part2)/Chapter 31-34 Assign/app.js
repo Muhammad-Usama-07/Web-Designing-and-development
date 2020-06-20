@@ -86,14 +86,19 @@ Difference_In_Time = (Difference_In_Time/60)*60;
 //To display the final no. of days (result) 
 document.write("On reference date "+date2+"<br>"); 
 document.write(Difference_In_Time +" seconds have passed since Beginning, 2015"); 
-*/
+
 // Question # 11
 var current = new Date();
 document.write("current date: "+current+"<br>")
 var pre = current.setHours(current.getHours()-1);
 document.write("1 hour ago, it was : "+current+"<br>")
-
+*/
 // Question # 12
+var current = new Date();
+document.write("current date: "+current+"<br>")
+var pre = current.setDate(current.getDate()-100);
+var pre2 = current.setFullYear(current.getYear()-100)
+document.write("100 years back, it was : "+current+"<br>")
 // Question # 13
 // Question # 14
 
