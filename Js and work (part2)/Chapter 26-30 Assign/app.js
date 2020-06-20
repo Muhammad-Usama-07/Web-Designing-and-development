@@ -17,12 +17,20 @@ document.write("ceil value: "+Math.ceil(num));
 // Question # 3
 var num = -4;
 document.write("The absolute value of "+num+" is "+Math.abs(num));
-*/
+
 // Question # 4
 var num = Math.floor(Math.random()*6)+1;
 document.write("The random value of "+num);
+*/
+// Question # 5
+var num = Math.floor(Math.random()*2)+1;
+if(num == 1){
+    document.write("Random con value: Head");
+}
+else if(num == 2){
+    document.write("Random con value: Tails");
+}
 
-// Question # 3
 // Question # 3
 // Question # 3
 // Question # 3
