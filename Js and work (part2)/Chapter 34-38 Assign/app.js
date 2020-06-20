@@ -91,7 +91,7 @@ var end = prompt("Enter end: ");
 start = parseInt(start);
 end = parseInt(end);
 count(start, end);
-*/
+
  
 // Question # 08
 function calculateHypotenuse(var1, var2){
@@ -111,8 +111,14 @@ base = parseInt(base);
 var perpendicular = prompt("Enter perpendicular:");
 perpendicular = parseInt(perpendicular);
 calculateHypotenuse(base, perpendicular);
-
+*/
 // Question # 09
+function areaOfRectangle(weight, height){
+    A = weight*height;
+    alert("Area of Rectangle = "+A)
+}
+var height = 4;
+areaOfRectangle(2, height);
 // Question # 10
 // Question # 11
 // Question # 12
