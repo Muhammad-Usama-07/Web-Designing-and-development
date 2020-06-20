@@ -111,7 +111,7 @@ base = parseInt(base);
 var perpendicular = prompt("Enter perpendicular:");
 perpendicular = parseInt(perpendicular);
 calculateHypotenuse(base, perpendicular);
-*/
+
 // Question # 09
 function areaOfRectangle(weight, height){
     A = weight*height;
@@ -119,7 +119,18 @@ function areaOfRectangle(weight, height){
 }
 var height = 4;
 areaOfRectangle(2, height);
+*/
 // Question # 10
+function check(string){
+    if(string == "palindrome"){
+        alert("Your String is a "+string);
+    }
+    else{
+        alert("Your String is not a palindrome")
+    }
+}
+var str = prompt("Enter Your String: ");
+check(str);
 // Question # 11
 // Question # 12
 // Question # 13
