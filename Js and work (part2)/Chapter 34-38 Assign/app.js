@@ -20,7 +20,7 @@ firstname = parseInt(firstname);
 var lastname = prompt("Enter last number: ");
 lastname = parseInt(lastname)
 Addition(firstname,lastname);
-*/
+
 // Question # 04
 function addition(var1, var2, operator){
     var1 = parseInt(var1);
@@ -56,7 +56,14 @@ var lastnumber = prompt("Enter last number: ");
 firstnumber = parseInt(firstnumber);
 firstnumber = parseInt(firstnumber);
 addition(firstnumber,lastnumber, operator);
+*/
 // Question # 05
+function square(var1){
+    alert("The Square of the number is: "+(var1* var1));
+}
+var num = prompt("Enter number: ");
+num = parseInt(num);
+square(num);
 // Question # 06
 // Question # 07
 // Question # 08
