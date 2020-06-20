@@ -36,7 +36,7 @@ var num = Math.floor(Math.random()*100)+1;
 if(num == 84){
     document.write("random number between 1 and 100: "+num);
 }
-*/
+
 // Question # 7
 var weight = prompt("Enter your weight in kilogram")
 var b ;
@@ -50,8 +50,37 @@ for(var i = 0; i<=weight.length-1;i++){
     }
 }
 document.write(" Kilograms")
+*/
 
-// Question # 3
-// Question # 3
-// Question # 3
+// Question # 8
+
+var input = prompt("Enter number from 1-10");
+input = parseInt(input);
+var i =0;
+while(i<=10){
+    i++;
+    var num = Math.floor(Math.random()*i)+1;
+    if(num == input){
+        alert("Congrtas");
+        break
+    }
+    else{
+        alert("Try Again");
+        break;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
