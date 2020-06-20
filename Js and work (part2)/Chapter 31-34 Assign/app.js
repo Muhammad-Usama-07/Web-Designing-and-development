@@ -7,7 +7,7 @@ var month = new Date();
 var current_month = month.getMonth();
 
 if(current_month == 5){
-    document.write("Current month: June")
+    alert("Current month: June")
 }
 // Question # 1
 // Question # 1
