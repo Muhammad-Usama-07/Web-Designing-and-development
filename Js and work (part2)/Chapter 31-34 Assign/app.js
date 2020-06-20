@@ -44,7 +44,7 @@ var current_milisec = current.getTime();
 document.write("Current Date: "+current+"<br>")
 document.write("Elapsed milisecond since January 1, 1970: "+current_milisec+"<br>")
 document.write("Elapsed minutes since January 1, 1970: "+current_milisec*1.6667e-5+"<br>")
-*/
+
 // Question # 7
 var current = new Date();
 var current_hour = current.getHours();
@@ -54,6 +54,15 @@ if(current_hour >= 0 && current_hour < 12){
 else if(current_hour >= 12 && current_hour <= 23){
     alert("It's PM");
 }
+*/
+// Question # 8
+var month = 11;
+var Last_d_Last_m = new Date(2020, month+1, 0 );
+alert(Last_d_Last_m)
+// Question # 1
+// Question # 1
+// Question # 1
+// Question # 1
 // Question # 1
 
 
