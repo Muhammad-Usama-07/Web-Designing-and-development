@@ -161,7 +161,7 @@ function FindLarge(string){
 }
 var string = "Web Development Tutorial";
 alert(FindLarge(string));
-*/
+
 // Question # 13
 function occurence(string, letter){
     var count = 0;
@@ -176,7 +176,21 @@ function occurence(string, letter){
 var str = "JSResourceS.com";
 var lett = "o";
 occurence(str, lett)
+*/
 // Question # 14
+
+function calcCircumference(radius){
+    var circum = 2*3.14*radius;
+    alert("The circumference is "+circum);
+}
+function calcArea(){
+    var area = 3.14*radius*radius;
+    alert("The circumference is "+area);
+}
+var radius = 3;;
+calcArea(radius);
+calcCircumference(radius);
+
 
 
 
