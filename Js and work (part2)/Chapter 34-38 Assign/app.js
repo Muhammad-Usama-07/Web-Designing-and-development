@@ -56,7 +56,7 @@ var lastnumber = prompt("Enter last number: ");
 firstnumber = parseInt(firstnumber);
 firstnumber = parseInt(firstnumber);
 addition(firstnumber,lastnumber, operator);
-*/
+
 // Question # 05
 function square(var1){
     alert("The Square of the number is: "+(var1* var1));
@@ -64,7 +64,19 @@ function square(var1){
 var num = prompt("Enter number: ");
 num = parseInt(num);
 square(num);
+*/
 // Question # 06
+function square(var1){
+    var num = 1;
+    for(var i = var1; i>=1;i--){
+        num = i*num;
+        
+    }
+    alert("factorial of "+var1+" is "+num);
+}
+var num = prompt("Enter number: ");
+num = parseInt(num);
+square(num);
 // Question # 07
 // Question # 08
 // Question # 09
