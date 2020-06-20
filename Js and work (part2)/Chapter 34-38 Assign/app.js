@@ -131,7 +131,7 @@ function check(string){
 }
 var str = prompt("Enter Your String: ");
 check(str);
-*/
+
 // Question # 11
 function toouppercase(str)
 {
@@ -145,7 +145,23 @@ function toouppercase(str)
 }
 var str = "the quick brown fox";
 alert(toouppercase(str));
+*/
 // Question # 12
+function FindLarge(string){
+    var str = string.split(" ");
+    var longest = 0;
+    var word = null;
+    for (var i = 0; i < str.length - 1; i++) {
+        if (longest < str[i].length) {
+            longest = str[i].length;
+            word = str[i];
+        }
+    }
+    return word;
+}
+var string = "Web Development Tutorial";
+alert(FindLarge(string));
+
 // Question # 13
 // Question # 14
 
