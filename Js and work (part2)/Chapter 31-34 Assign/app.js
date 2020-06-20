@@ -54,16 +54,31 @@ if(current_hour >= 0 && current_hour < 12){
 else if(current_hour >= 12 && current_hour <= 23){
     alert("It's PM");
 }
-*/
+
 // Question # 8
 var month = 11;
 var Last_d_Last_m = new Date(2020, month+1, 0 );
 alert(Last_d_Last_m)
-// Question # 1
-// Question # 1
-// Question # 1
-// Question # 1
-// Question # 1
+*/
+// Question # 9
+var date1 = new Date("06/18/2015"); 
+var date2 = new Date("04/24/2020"); 
+  
+// To calculate the time difference of two dates 
+var Difference_In_Time = date2.getTime() - date1.getTime(); 
+  
+// To calculate the no. of days between two dates 
+var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24); 
+  
+//To display the final no. of days (result) 
+document.write(Difference_In_Days +" days have passed since 1st Ramzan, 2015"); 
+
+
+// Question # 10
+// Question # 11
+// Question # 12
+// Question # 13
+// Question # 14
 
 
 
