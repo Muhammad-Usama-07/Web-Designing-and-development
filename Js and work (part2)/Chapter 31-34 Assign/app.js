@@ -106,7 +106,7 @@ age = parseInt(age);
 var birthday = new Date();
 document.write("Your age is: "+age+"<br>");
 document.write("Your Birth Year is: "+(birthday.getFullYear()-age)+"<br>");
-*/
+
 // Question # 14
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "aug", "Sep", "Oct", "nov", "Dec"]
 var current = new Date();
@@ -131,7 +131,7 @@ document.write("Net Amount Payable (within Due Date): "+NAP+"<br>");
 document.write("Late payment surcharge: "+late_payment+"<br>");
 document.write("Gross Amount Payable (after Due Date): "+GAP+"<br>");
 
-
+*/
 
 
 
