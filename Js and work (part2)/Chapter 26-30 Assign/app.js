@@ -21,7 +21,7 @@ document.write("The absolute value of "+num+" is "+Math.abs(num));
 // Question # 4
 var num = Math.floor(Math.random()*6)+1;
 document.write("The random value of "+num);
-*/
+
 // Question # 5
 var num = Math.floor(Math.random()*2)+1;
 if(num == 1){
@@ -30,8 +30,12 @@ if(num == 1){
 else if(num == 2){
     document.write("Random con value: Tails");
 }
-
-// Question # 3
+*/
+// Question # 6
+var num = Math.floor(Math.random()*100)+1;
+if(num == 84){
+    document.write("random number between 1 and 100: "+num);
+}
 // Question # 3
 // Question # 3
 // Question # 3
