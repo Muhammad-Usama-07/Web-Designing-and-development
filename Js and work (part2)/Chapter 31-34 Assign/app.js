@@ -30,11 +30,13 @@ else{
 // Question # 5
 var current = new Date();
 var current_date = current.getDate();
-var current_milisec = current.getTime();
-document.write("Current Date: "+current+"<br>")
-document.write("Elapsed milisecond since January 1, 1970: "+current_milisec+"<br>")
-document.write("Elapsed minutes since January 1, 1970: "+current_milisec*1.6667e-5+"<br>")
-// Question # 1
+if(current_date < 16){
+    alert("First fifteen days of the month")
+}
+else{
+    alert("Last days of the month")
+}
+// Question # 
 // Question # 1
 // Question # 1
 
