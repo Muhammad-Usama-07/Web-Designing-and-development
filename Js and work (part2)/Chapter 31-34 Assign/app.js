@@ -9,15 +9,23 @@ var current_month = month.getMonth();
 if(current_month == 5){
     alert("Current month: June")
 }
-*/
+
 
 // Question # 3
 var current = new Date();
 var current_day = current.getDay();
 var day_list = ["Sun", "Mon","Tue","Wed","Thus","Fri","Sat"]
 alert("Today is "+day_list[current_day])
-
-// Question # 1
+*/
+// Question # 4
+var current = new Date();
+var current_day = current.getDay();
+if(current_day == 0 || current_day == 6){
+    alert("It's Fun day")
+}
+else{
+    alert("It's Normal today")
+}
 // Question # 1
 // Question # 1
 // Question # 1
