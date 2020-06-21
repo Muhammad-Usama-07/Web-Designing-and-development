@@ -7,7 +7,7 @@ while(i<10){
 // using do while
 var c = 0;
 do{
-    document.write(i+"<br>");
-    i++;
+    document.write(c+"<br>");
+    c++;
 }
-while(i<10);
+while(c<10);
