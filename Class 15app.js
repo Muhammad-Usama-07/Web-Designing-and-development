@@ -25,6 +25,9 @@ function foo(greet){
 }
 */
 //
+function clickbt(){
+    alert("Hyaaa")
+}
 //
 //
 //
