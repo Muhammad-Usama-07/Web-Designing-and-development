@@ -11,14 +11,18 @@ do{
     c++;
 }
 while(c<10);
-*/
+
 //                                       using Events
 //                                      **************
-//
+// Calling function with html
 function foo(){
     alert("Hello world");
 }
+*/
 //
+function foo(greet){
+    alert(greet);
+}
 //
 //
 //
