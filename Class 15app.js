@@ -18,11 +18,12 @@ while(c<10);
 function foo(){
     alert("Hello world");
 }
-*/
-//
+
+//Calling function through argument with html
 function foo(greet){
     alert(greet);
 }
+*/
 //
 //
 //
