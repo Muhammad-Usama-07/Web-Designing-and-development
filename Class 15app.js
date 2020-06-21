@@ -15,7 +15,9 @@ while(c<10);
 //                                       using Events
 //                                      **************
 //
-//
+function foo(){
+    alert("Hello world");
+}
 //
 //
 //
