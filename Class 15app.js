@@ -23,11 +23,13 @@ function foo(){
 function foo(greet){
     alert(greet);
 }
-*/
+
 //
 function clickbt(){
     alert("Hyaaa")
 }
+*/
+
 //
 //
 //
