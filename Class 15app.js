@@ -29,8 +29,8 @@ function clickbt(){
     alert("Hyaaa")
 }
 */
-
 //
+//function 
 //
 //
 //
