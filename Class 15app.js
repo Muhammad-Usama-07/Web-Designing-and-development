@@ -33,6 +33,7 @@ function clickbt(){
 function getname(){
     var name = document.getElementById("name");
     alert(name.value);
+    name.value = "";
     
 }
 //
