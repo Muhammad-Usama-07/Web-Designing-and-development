@@ -7,3 +7,12 @@ body {
   background-position: center;
   height: 100%;
 }
+.calculator{
+    background: linear-gradient(to top, #ff6600 50%, #660033 100%);
+    height: 80%;
+    width: 35%;
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 5%;
+    
+}
