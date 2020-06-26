@@ -44,7 +44,11 @@ function setname(){
     
 }
 setname();
-//
+//remove field value
+function removefieldvalue(){
+    var name = document.getElementById("name");
+    name.value = "";
+}
 //
 //
 //
