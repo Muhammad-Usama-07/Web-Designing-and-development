@@ -24,3 +24,17 @@ body {
     margin-top: 5%;
     margin-left: 5%;
 }
+.pos{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.pos2{
+    margin-left: 24%;
+}
+.bt_style{
+    background: linear-gradient(to bottom, #ff9900 25%, #ffcc66 100%);
+    width: 23%;
+    font-size: 35px;
+    border-radius: 20%;
+    height: 11%;
+}
