@@ -36,7 +36,7 @@ function getname(){
     name.value = "";
     
 }
-*/
+
 // setting value to html form
 function setname(){
     var name = document.getElementById("name");
@@ -49,6 +49,7 @@ function removefieldvalue(){
     var name = document.getElementById("name");
     name.value = "";
 }
+*/
 //
 //
 //
