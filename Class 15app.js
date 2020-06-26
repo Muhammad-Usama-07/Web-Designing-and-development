@@ -29,8 +29,12 @@ function clickbt(){
     alert("Hyaaa")
 }
 */
-//
-//function 
+//Getting inof from html form.
+function getname(){
+    var name = document.getElementById("name");
+    alert(name.value);
+    
+}
 //
 //
 //
