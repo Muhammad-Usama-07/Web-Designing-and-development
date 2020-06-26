@@ -28,15 +28,22 @@ function foo(greet){
 function clickbt(){
     alert("Hyaaa")
 }
-*/
-//Getting inof from html form.
+
+//Getting info from html form.
 function getname(){
     var name = document.getElementById("name");
     alert(name.value);
     name.value = "";
     
 }
-//
+*/
+// setting value to html form
+function setname(){
+    var name = document.getElementById("name");
+    name.value = "Usama";
+    
+}
+setname();
 //
 //
 //
