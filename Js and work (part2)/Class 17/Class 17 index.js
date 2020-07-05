@@ -62,7 +62,14 @@ function stop(){
     clearInterval(interval)
 }
 
-
+function reset(){
+    min = 0;
+    sec = 0;
+    msec = 0;
+    minheading.innerHTML = 0;
+    secheading.innerHTML = 0;
+    msecheading.innerHTML = 0;
+}
 
 
 
