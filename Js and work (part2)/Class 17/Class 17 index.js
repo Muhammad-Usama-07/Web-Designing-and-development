@@ -27,7 +27,7 @@ interval = setInterval(timer,1000);
 setTimeout(function(){
     clearInterval(interval);
 },3000);
-*/
+
 
 // Making stop watch
 
@@ -71,7 +71,7 @@ function reset(){
     msecheading.innerHTML = 0;
 }
 
-
+*/
 
 
 
