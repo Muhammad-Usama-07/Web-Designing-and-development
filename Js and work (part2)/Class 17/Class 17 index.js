@@ -53,8 +53,11 @@ function timer(){
             minheading.innerHTML = min;
             }
 }
-interval = setInterval(timer, 10)
 
+
+function start(){
+    interval = setInterval(timer, 10);
+}
 
 
 
