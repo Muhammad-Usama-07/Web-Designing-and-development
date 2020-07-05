@@ -1,6 +1,6 @@
 // Starting class 17
 
-// using predefine repeativelly function
+// using predefine repeativelly function => time required in miliseconds
     // running function to 1 second
 /*
 function timer(){
@@ -14,7 +14,7 @@ function timeout(){
     document.write("runing<br>");
 }
 setTimeout(timeout,3000);
-*/
+
 // Stopping steInterval function
 var count = 0;
 var interval;
@@ -27,7 +27,7 @@ interval = setInterval(timer,1000);
 setTimeout(function(){
     clearInterval(interval);
 },3000);
-
+*/
 
 
 
