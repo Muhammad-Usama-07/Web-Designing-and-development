@@ -69,9 +69,38 @@ function reset(){
     minheading.innerHTML = 0;
     secheading.innerHTML = 0;
     msecheading.innerHTML = 0;
+    stop();
 }
 
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
