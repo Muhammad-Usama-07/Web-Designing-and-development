@@ -4,12 +4,16 @@ function readmore(){
     var text = '<ul><li>li</li><li>li</li><li>li</li><li>li</li></ul>';
     var para = document.getElementById("para");
     para.innerHTML = text;
-}*/
+}
 
 // Starting Chapter 52
 function big(){
     var img = document.getElementById('car');
     img.className += ' hidden';
 }
-
-
+*/
+// Starting Chapter 53
+function changeimg(){
+    var img1 = document.getElementById('img1');
+    img1.src = "53221314_dt__37650.1477335774.500.659.jpg";
+}
