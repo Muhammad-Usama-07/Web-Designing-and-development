@@ -28,17 +28,20 @@ function changeimg(id,src){
 }
 
 // Chapter 54 works same as chapter 53 but link differnece.
-*/
+
 // Starting chapter 55
 function change(){
     var imag = document.getElementById('img1');
     imag.style.width = '50%';
-}
+}*/
 function change(){
     var imag = document.getElementById('text');
     imag.style.fontSize = '2em';
 }
-
+function change(){
+    var imag = document.getElementById('img1');
+    imag.style.cssFloat = 'right';
+}
 
 
 
