@@ -7,5 +7,9 @@ function readmore(){
 }*/
 
 // Starting Chapter 52
+function big(){
+    var img = document.getElementById('car');
+    img.className = 'hidden';
+}
 
 
