@@ -42,13 +42,13 @@ function change(){
     var imag = document.getElementById('img1');
     imag.style.cssFloat = 'right';
 }
-*/
+
 
 // Starting chapter 56
 var para = document.getElementsByTagName('p');
 para[1].style.color = 'red';
-
-
+*/
+// Starting chapter 57
 
 
 
