@@ -49,6 +49,9 @@ var para = document.getElementsByTagName('p');
 para[1].style.color = 'red';
 */
 // Starting chapter 57
+var parent = document.getElementById('parent');
+var para = parent.getElementsByTagName('p');
+para[1].style.color = 'red';
 
 
 
