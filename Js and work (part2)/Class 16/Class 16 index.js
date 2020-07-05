@@ -11,7 +11,7 @@ function big(){
     var img = document.getElementById('car');
     img.className += ' hidden';
 }
-*/
+
 // Starting Chapter 53
 function changeimg(){
     var img1 = document.getElementById('img1');
@@ -21,5 +21,8 @@ function afterchangeimg(){
     var img1 = document.getElementById('img1');
     img1.src = "photo-1562911791-c7a97b729ec5.jpg";
 }
-
-
+*/
+function changeimg(id,src){
+    var img1 = document.getElementById(id);
+    img1.src = src;
+}
