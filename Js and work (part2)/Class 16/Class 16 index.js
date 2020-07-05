@@ -34,6 +34,10 @@ function change(){
     var imag = document.getElementById('img1');
     imag.style.width = '50%';
 }
+function change(){
+    var imag = document.getElementById('text');
+    imag.style.fontSize = '2em';
+}
 
 
 
