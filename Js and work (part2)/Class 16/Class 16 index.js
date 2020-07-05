@@ -26,9 +26,9 @@ function changeimg(id,src){
     var img1 = document.getElementById(id);
     img1.src = src;
 }
-*/
-// Starting Chapter 54
 
+// Chapter 54 works same as chapter 53 but link differnece.
+*/
 
 
 
