@@ -76,9 +76,12 @@ function reset(){
 
 document.write(document.childNodes[0]);
 document.write("<br>"+document.childNodes[0].childNodes[0]);
-*/
+
 var a = document.getElementById('father');
-console.log(a.firstChild)
+console.log(a.firstson);
+*/
+var a = document.getElementById('firstson');
+console.log(a.nextSibling);
 
 
 
