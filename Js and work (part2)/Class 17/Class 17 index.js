@@ -75,6 +75,7 @@ function reset(){
 */
 
 document.write(document.childNodes[0])
+document.write("<br>"+document.childNodes[0].childNodes[0])
 
 
 
