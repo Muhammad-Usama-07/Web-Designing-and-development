@@ -74,7 +74,7 @@ function reset(){
 
 */
 
-
+document.write(document.childNodes[0])
 
 
 
