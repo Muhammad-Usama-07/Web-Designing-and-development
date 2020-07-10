@@ -23,7 +23,12 @@ body {
 }
 .watchback{
     background-color: dimgray; 
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 10%;
+    margin-left: 25%;
     height: 50%;
     width: 40%;
     border-radius: 50%;
+    
 }
