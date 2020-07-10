@@ -88,10 +88,10 @@ console.log(a.lastChild);
 
 var a = document.getElementById('father');
 console.log(a.childNodes);
-*/
+
 var a = document.getElementById('firstson');
 console.log(a.nodeName);
-
+*/
 
 
 
