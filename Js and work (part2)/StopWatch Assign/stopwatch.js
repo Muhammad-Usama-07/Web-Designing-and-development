@@ -5,3 +5,6 @@ var minheading  = document.getElementById('min');
 var secheading  = document.getElementById('sec');
 var msecheading  = document.getElementById('msec');
 var interval;
+function timer(){
+    
+}
