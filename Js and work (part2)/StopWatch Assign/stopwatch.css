@@ -19,5 +19,11 @@ body {
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-    : 
+     
+}
+.watchback{
+    background-color: dimgray; 
+    height: 50%;
+    width: 40%;
+    border-radius: 50%;
 }
