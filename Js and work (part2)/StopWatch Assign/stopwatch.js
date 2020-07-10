@@ -21,9 +21,13 @@ function timer(){
 }
 function start(){
     interval = setInterval(timer, 10);
+    var startbutton = document.getElementById('startbutton');
+    startbutton.disabled = true;
 }
 function stop(){
     clearInterval(interval);
+    var startbutton = document.getElementById('startbutton');
+    startbutton.disabled = false;
 }
 function reset(){
     min = 0;
