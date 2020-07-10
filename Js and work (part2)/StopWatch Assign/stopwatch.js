@@ -22,3 +22,7 @@ function timer(){
 function start(){
     interval = setInterval(timer, 10);
 }
+function stop(){
+    clearInterval(interval);
+}
+
