@@ -6,5 +6,11 @@ var secheading  = document.getElementById('sec');
 var msecheading  = document.getElementById('msec');
 var interval;
 function timer(){
-    
+    msec++;
+    msecheading.innerHTML = msec;
+    if(msec >= 100){
+       sec++;
+        secheading.innerHTML = sec;
+        msec = 0;
+       }
 }
