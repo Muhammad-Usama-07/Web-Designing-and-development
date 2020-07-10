@@ -81,12 +81,13 @@ var a = document.getElementById('father');
 console.log(a.firstson);
 
 var a = document.getElementById('firstson');
-console.log(a.nextSibling);*/
+console.log(a.nextSibling);
 
 var a = document.getElementById('father');
 console.log(a.lastChild);
-
-
+*/
+var a = document.getElementById('father');
+console.log(a.childNodes);
 
 
 
