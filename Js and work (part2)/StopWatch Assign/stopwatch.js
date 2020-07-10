@@ -19,3 +19,6 @@ function timer(){
             minheading.innerHTML = min;
             }
 }
+function start(){
+    interval = setInterval(timer, 10);
+}
