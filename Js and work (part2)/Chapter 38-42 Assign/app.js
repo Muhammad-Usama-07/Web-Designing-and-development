@@ -53,7 +53,7 @@ var sub1 = parseInt(prompt("Enter marks in subject 1"));
 var sub2 = parseInt(prompt("Enter marks in subject 2"));
 var sub3 = parseInt(prompt("Enter marks in subject 3"));
 mainfunction(sub1, sub2, sub3);
-*/
+
 
 // Question # 5
 
@@ -68,9 +68,27 @@ function checkindex(charr,string){
 
 var str = "hello";
 checkindex("l",str)
+*/
 
+// Question # 6
 
-
+function deletvow(string){
+    var new_str = ""; 
+    
+    for(var i = 0; i<=string.length; i++){
+        if(string[i] == 'a' || string[i] == 'e' || string[i] == 'i'|| string[i] == 'o'|| string[i] == 'u'|| string[i] == 'A'|| string[i] == 'E'|| string[i] == 'I'|| string[i] == 'O'|| string[i] == 'U'){
+            new_str = string.replace(/[aeiou]/g, "");
+        }
+    }
+    alert(new_str);
+}
+var string = prompt("Enter String: ");
+if(string.length <= 25){
+    deletvow(string);
+}
+else{
+    alert("lenght not be greater then 25")
+}
 
 
 
