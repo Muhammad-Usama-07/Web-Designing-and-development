@@ -1,0 +1,12 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <!--Question # 1-->
+        <a href="#!" id="linkk" onclick="alert('You just clicked here')"> Hay Click here</a>
+        
+        <script src="app.js"></script>
+    </body>
+
+</html>
