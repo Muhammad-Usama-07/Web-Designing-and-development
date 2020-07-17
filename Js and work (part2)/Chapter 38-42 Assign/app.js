@@ -89,7 +89,7 @@ if(string.length <= 25){
 else{
     alert("lenght not be greater then 25")
 }
-*/
+
 // Question # 7 
 
 function occure(text){
@@ -108,9 +108,32 @@ function occure(text){
 }
 var text ="Pleases read this application and give me gratuity";
 occure(text);
+*/
 
+// Question # 8
+function meters(Km){
+    var result = Km*1000;
+    document.write("Your distance in meter is: "+result+"<br>")
+    
+} 
+function feet(Km){
+    var result = parseFloat(Km*3280.84);
+    document.write("Your distance in feet is: "+result+"<br>")
+} 
+function inches(Km){
+    var result = parseFloat(Km*39370.1);
+    document.write("Your distance in inches is: "+result+"<br>")
+} 
+function centimeters(Km){
+    var result = Km*100000;
+    document.write("Your distance in meter is: "+result+"<br>")
+}
 
-
+var Km = parseInt(prompt("Enter distace in km: "));
+meters(Km)
+feet(Km)
+inches(Km)
+centimeters(Km)
 
 
 
