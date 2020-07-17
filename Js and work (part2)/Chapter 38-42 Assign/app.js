@@ -134,7 +134,7 @@ meters(Km)
 feet(Km)
 inches(Km)
 centimeters(Km)
-*/
+
 
 // Question # 9
 
@@ -156,9 +156,13 @@ overtime(worked_hour);
 
 
 
+// Question # 10
 
-
-
+var withdraw = parseInt(prompt("Enter Amount of withdraw"))
+document.write("notes of 100 is : " +parseInt(withdraw / 100)+"<br>");
+document.write("notes of 50 is  : "+ parseInt((withdraw % 100) / 50)+"<br>");
+document.write("notes of 10 is  : "+ parseInt(((withdraw % 100) % 50) / 10)+"<br>");
+*/
 
 
 
