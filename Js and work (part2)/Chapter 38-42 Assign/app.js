@@ -31,7 +31,7 @@ function triarea(a,b,c){
 }
 
 triarea(1,3,3);
-*/
+
 
 // Question # 4
 
@@ -53,6 +53,61 @@ var sub1 = parseInt(prompt("Enter marks in subject 1"));
 var sub2 = parseInt(prompt("Enter marks in subject 2"));
 var sub3 = parseInt(prompt("Enter marks in subject 3"));
 mainfunction(sub1, sub2, sub3);
+*/
+
+// Question # 5
+
+function checkindex(charr,string){
+    for(var i = 0; i<=string.length; i++){
+        if(string[i] == charr){
+            alert("found at the index of: "+i)
+            break;
+        }
+    }
+}
+
+var str = "hello";
+checkindex("l",str)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
