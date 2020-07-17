@@ -68,7 +68,7 @@ function checkindex(charr,string){
 
 var str = "hello";
 checkindex("l",str)
-*/
+
 
 // Question # 6
 
@@ -89,9 +89,25 @@ if(string.length <= 25){
 else{
     alert("lenght not be greater then 25")
 }
+*/
+// Question # 7 
 
-
-
+function occure(text){
+    var count_e = 0;
+    var count_a = 0;
+    for(var i = 0; i<=text.length; i++){
+        if(text.charAt(i)=="e"){
+           count_e++;
+           }
+        if(text.charAt(i)=="a"){
+           count_a++;
+           }
+    }
+    alert(count_e);
+    alert(count_a);
+}
+var text ="Pleases read this application and give me gratuity";
+occure(text);
 
 
 
