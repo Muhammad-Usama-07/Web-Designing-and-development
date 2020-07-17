@@ -108,7 +108,7 @@ function occure(text){
 }
 var text ="Pleases read this application and give me gratuity";
 occure(text);
-*/
+
 
 // Question # 8
 function meters(Km){
@@ -134,6 +134,62 @@ meters(Km)
 feet(Km)
 inches(Km)
 centimeters(Km)
+*/
+
+// Question # 9
+
+function overtime(worked_hour){
+    if(worked_hour <= 40 ){
+        worked_hour*over_time_rate;
+        alert("you didn't workred over time")
+    }
+    else if(worked_hour > 40 ){
+        var result = worked_hou-40r; 
+        alert("your over time salary is: "+result*over_time_rate)
+    }
+}
+
+var worked_hour = parseInt(prompt("Enter your hours"))
+var over_time_rate = 12.00;
+
+overtime(worked_hour);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
