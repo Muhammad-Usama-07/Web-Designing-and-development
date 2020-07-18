@@ -1,5 +1,5 @@
 // Question # 01
-
+/*
 function gdet(){
     var classs = document.getElementById('submit');
     classs.style.display = "none"
@@ -12,3 +12,4 @@ function gdet(){
     document.write('Your Id: '+Id.value+"<br>")
     document.write('Your contact: '+cont.value+"<br>")
 }
+*/
