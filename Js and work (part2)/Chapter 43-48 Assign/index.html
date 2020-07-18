@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link href="style.css" type="text/css">
+        <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <!--Question # 1
@@ -70,9 +70,18 @@
           </tr>
         </table>-->
         
-        <!--Question # 4-->
-        <img id="firstimage" src="images/mib1.png" onmouseover="chnageimage()" onmouseout="previmg()">
+        <!--Question # 4
+        <img id="firstimage" src="images/mib1.png" onmouseover="chnageimage()" onmouseout="previmg()">-->
 
+        <!--Question # 5-->
+        <div class="watchback">
+        <h2><strong>Counter</strong></h2>
+        <h1 id="incr">0</h1>
+        <div>
+            <button onclick="incr()">Incr</button>
+            <button id="decButton" onclick="decr()">Decr</button>
+        </div>
+    </div>
         <script src="app.js"></script>
     </body>
 
