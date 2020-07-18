@@ -17,7 +17,7 @@ function previmg(){
     var previmgg = document.getElementById('firstimage');
     previmgg.src = "images/mib1.png";
 }
-*/
+
 
 // Question # 5
 var counter = 0;
@@ -43,3 +43,4 @@ function decr(){
     else{
     }
 }
+*/
