@@ -12,7 +12,7 @@ function gdet(){
     document.write('Your Id: '+Id.value+"<br>")
     document.write('Your contact: '+cont.value+"<br>")
 }
-*/
+
 
 // Question # 02
 function readmore() {
@@ -22,3 +22,5 @@ function readmore() {
     
     
 }
+
+*/
