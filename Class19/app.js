@@ -13,6 +13,8 @@ function addtodo(){
     var dlttext = document.createTextNode("DELETE");
     dltbtn.appendChild(dlttext)
     
+    li.appendChild(dltbtn)
+    
     list.appendChild(li);
     todoitem.value = "";
     console.log(li)
