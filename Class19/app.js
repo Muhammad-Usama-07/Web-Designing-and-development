@@ -37,3 +37,7 @@ function deletall(){
     list.innerHTML = "";
 }
 
+function edititem(e){
+    console.log(e.parentNode.childNodes[0])
+    
+}
