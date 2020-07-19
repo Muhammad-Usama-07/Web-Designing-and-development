@@ -19,6 +19,7 @@ function addtodo(){
     var editbtn = document.createElement("button");
     var edittext = document.createTextNode("Edit");
     editbtn.appendChild(edittext);
+    editbtn.setAttribute("onclick", "edititem(this)")
     
     li.appendChild(dltbtn)
     li.appendChild(editbtn)
@@ -35,3 +36,4 @@ function deletbtun(e){
 function deletall(){
     list.innerHTML = "";
 }
+
