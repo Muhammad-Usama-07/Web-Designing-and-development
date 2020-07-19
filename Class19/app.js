@@ -38,6 +38,7 @@ function deletall(){
 }
 
 function edititem(e){
+    e.parentNode.firstChild.nodeValue = "ghous";
     console.log(e.parentNode.firstChild)
     
 }
