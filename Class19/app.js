@@ -38,6 +38,6 @@ function deletall(){
 }
 
 function edititem(e){
-    console.log(e.parentNode.childNodes[0])
+    console.log(e.parentNode.firstChild)
     
 }
