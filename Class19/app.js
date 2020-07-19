@@ -1,4 +1,7 @@
+var list = document.getElementById('list')
+
 function addtodo(){
     var todo = document.getElementById('todo-item')
-    console.log(todo)
+    var li = document.createElement('li')
+    console.log(li)
 }
