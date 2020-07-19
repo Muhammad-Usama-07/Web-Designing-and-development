@@ -15,7 +15,13 @@ function addtodo(){
     dltbtn.setAttribute("class","btn");
     dltbtn.setAttribute("onclick", "deletbtun(this)")
     
+    
+    var editbtn = document.createElement("button");
+    var edittext = document.createTextNode("Edit");
+    editbtn.appendChild(edittext);
+    
     li.appendChild(dltbtn)
+    li.appendChild(editbtn)
     
     list.appendChild(li);
     todoitem.value = "";
