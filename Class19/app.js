@@ -11,8 +11,9 @@ function addtodo(){
     // creating delet button  
     var dltbtn = document.createElement("button");
     var dlttext = document.createTextNode("DELETE");
-    dltbtn.appendChild(dlttext)
-    dltbtn.setAttribute("class","btn")
+    dltbtn.appendChild(dlttext);
+    dltbtn.setAttribute("class","btn");
+    dltbtn.setAttribute("onclick", "deletbtun()")
     
     li.appendChild(dltbtn)
     
