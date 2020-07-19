@@ -5,6 +5,7 @@ function addtodo(){
     var li = document.createElement('li');
     var litest = document.createTextNode(todoitem.value)
     li.appendChild(litest);
-    list.appendChild(li)
+    list.appendChild(li);
+    todoitem.value = "";
     console.log(li)
 }
