@@ -13,11 +13,15 @@ function addtodo(){
     var dlttext = document.createTextNode("DELETE");
     dltbtn.appendChild(dlttext);
     dltbtn.setAttribute("class","btn");
-    dltbtn.setAttribute("onclick", "deletbtun()")
+    dltbtn.setAttribute("onclick", "deletbtun(this)")
     
     li.appendChild(dltbtn)
     
     list.appendChild(li);
     todoitem.value = "";
     console.log(li)
+}
+
+function deletbtun(e){
+    console.log(e)
 }
