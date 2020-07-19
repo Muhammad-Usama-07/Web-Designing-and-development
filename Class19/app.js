@@ -23,5 +23,9 @@ function addtodo(){
 }
 
 function deletbtun(e){
-    console.log(e)
+    e.parentNode.remove();
+}
+
+function deletall(){
+    list.innerHTML = "";
 }
