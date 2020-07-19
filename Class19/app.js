@@ -38,7 +38,8 @@ function deletall(){
 }
 
 function edititem(e){
-    var editvalue = prompt("Enter new Value:",li_vale);
+    var val  = e.parentNode.firstChild.nodeValue
+    var editvalue = prompt("Enter new Value:",val);
     e.parentNode.firstChild.nodeValue = editvalue;
     
 }
