@@ -12,6 +12,7 @@ function addtodo(){
     var dltbtn = document.createElement("button");
     var dlttext = document.createTextNode("DELETE");
     dltbtn.appendChild(dlttext)
+    dltbtn.setAttribute("class","btn")
     
     li.appendChild(dltbtn)
     
