@@ -1,1 +1,0 @@
-var maincontent = document.getElementById('main-content')
