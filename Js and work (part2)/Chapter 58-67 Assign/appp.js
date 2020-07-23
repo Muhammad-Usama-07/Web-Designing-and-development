@@ -36,7 +36,8 @@ email.value = "abcss@gmail.com";
 
 //Step (i)
 
-
+var formcontent = document.getElementById('form-content');
+alert(formcontent.nodeType)
 
 
 
