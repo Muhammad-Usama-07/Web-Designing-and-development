@@ -30,7 +30,7 @@ var email = document.getElementById('email');
 firstname.value = "Muhammad Usama";
 lastname.value = "Rajput";
 email.value = "abcss@gmail.com";
-*/
+
 
 ///  Question # 02
 
@@ -38,8 +38,13 @@ email.value = "abcss@gmail.com";
 
 var formcontent = document.getElementById('form-content');
 alert(formcontent.nodeType)
+*/
 
+//Step (ii)
 
+var lastname = document.getElementById('lastName');
+alert("Node type of lastName id is: "+lastname.nodeType);
+console.log(lastname.childNodes)
 
 
 
