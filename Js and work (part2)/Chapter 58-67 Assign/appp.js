@@ -45,14 +45,18 @@ alert(formcontent.nodeType)
 var lastname = document.getElementById('lastName');
 alert("Node type of lastName id is: "+lastname.nodeType);
 console.log(lastname.childNodes)
-*/
+
 
 //Step (iii)
 
 var lastname = document.getElementById('lastName');
 alert(lastname.innerHTML);
+*/
 
+//Step (iv)
 
+var maincontent = document.getElementById('main-content');
+console.log(maincontent.firstChild.nextSibling.innerHTML);
 
 
 
