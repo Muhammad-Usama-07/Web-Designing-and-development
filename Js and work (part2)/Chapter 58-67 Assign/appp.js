@@ -65,14 +65,14 @@ var lastName = document.getElementById('lastName');
 alert("Next Sibling of lastName is: "+lastName.nextSibling.innerHTML);
 alert("Next Sibling of lastName is: "+lastName.previousSibling.innerHTML);
 
-*/
+
 
 //Step (v)
 
 var email = document.getElementById('email');
 alert("Parent node of email is: "+email.parentNode.innerHTML);
 alert("Node type of email is: "+email.nodeType);
-
+*/
 
 
 
