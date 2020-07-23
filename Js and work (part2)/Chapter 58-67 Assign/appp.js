@@ -56,7 +56,8 @@ alert(lastname.innerHTML);
 //Step (iv)
 
 var maincontent = document.getElementById('main-content');
-console.log(maincontent.firstChild.innerHTML)
+alert("first child is: "+maincontent.firstChild.innerHTML)
+alert("last child is: "+maincontent.lastChild.innerHTML)
 
 
 
