@@ -51,15 +51,19 @@ console.log(lastname.childNodes)
 
 var lastname = document.getElementById('lastName');
 alert(lastname.innerHTML);
-*/
+
 
 //Step (iv)
 
 var maincontent = document.getElementById('main-content');
 alert("first child is: "+maincontent.firstChild.innerHTML)
 alert("last child is: "+maincontent.lastChild.innerHTML)
+*/
+//Step (v)
 
-
+var lastName = document.getElementById('lastName');
+alert("Next Sibling of lastName is: "+lastName.nextSibling.innerHTML);
+alert("Next Sibling of lastName is: "+lastName.previousSibling.innerHTML);
 
 
 
