@@ -58,16 +58,20 @@ alert(lastname.innerHTML);
 var maincontent = document.getElementById('main-content');
 alert("first child is: "+maincontent.firstChild.innerHTML)
 alert("last child is: "+maincontent.lastChild.innerHTML)
-*/
+
 //Step (v)
 
 var lastName = document.getElementById('lastName');
 alert("Next Sibling of lastName is: "+lastName.nextSibling.innerHTML);
 alert("Next Sibling of lastName is: "+lastName.previousSibling.innerHTML);
 
+*/
 
+//Step (v)
 
-
+var email = document.getElementById('email');
+alert("Parent node of email is: "+email.parentNode.innerHTML);
+alert("Node type of email is: "+email.nodeType);
 
 
 
