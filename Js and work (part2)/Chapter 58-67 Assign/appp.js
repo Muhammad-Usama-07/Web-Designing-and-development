@@ -19,7 +19,7 @@ for(var i= 0; i<=renderr.length-1; i++){
 var firstname = document.getElementById('first-name');
 
 firstname.value = "Muhammad Usama";
-*/
+
 
 // Step (v)
 
@@ -30,9 +30,11 @@ var email = document.getElementById('email');
 firstname.value = "Muhammad Usama";
 lastname.value = "Rajput";
 email.value = "abcss@gmail.com";
+*/
 
+///  Question # 02
 
-
+//Step (i)
 
 
 
