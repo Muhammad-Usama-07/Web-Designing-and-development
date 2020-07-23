@@ -72,6 +72,7 @@ alert("Next Sibling of lastName is: "+lastName.previousSibling.innerHTML);
 var email = document.getElementById('email');
 alert("Parent node of email is: "+email.parentNode.innerHTML);
 alert("Node type of email is: "+email.nodeType);
+
 */
 
 
