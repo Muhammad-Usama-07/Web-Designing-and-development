@@ -3,17 +3,20 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <!-- making Todo app-->
-        <div>
-            <input placeholder="Enter Todo" type="text" id="todo-item">
-            <button onclick="addtodo()">Add Item</button>
-            <button onclick="deletall()">Delete all</button>
-        </div>
-        <div>
-            <ul id="list">
-            
-            
-            </ul>
+        <!-- making Todo   app-->
+        <div class="todobox">
+            <h1 style="text-align: center;">Enter your Schedule</h1>
+            <div class="todoclass">
+                <input placeholder="Enter Todo" type="text" id="todo-item" style="font-size: 100%">
+                <button onclick="addtodo()" style="font-size: 100%">Add Item</button>
+                <button onclick="deletall()" style="font-size: 100%">Delete all</button>
+            </div>
+            <div class="" style="text-align: center;">
+                <ul id="list" style="margin-left: 10px; font-size: 25px; ">
+
+
+                </ul>
+            </div>
         </div>
         <script src="app.js" type="text/javascript"></script>
     </body>

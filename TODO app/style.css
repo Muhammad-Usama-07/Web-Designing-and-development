@@ -1,0 +1,14 @@
+.todoclass{
+    text-align: center;
+}
+
+.todobox{
+    position: absolute;
+    top: 20vh;
+    background-color:burlywood;
+    height: 70vh;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+}
