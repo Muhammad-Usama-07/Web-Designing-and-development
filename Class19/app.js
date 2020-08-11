@@ -1,4 +1,4 @@
-var list = document.getElementById('list')
+/*var list = document.getElementById('list')
 
 function addtodo(){
     var todoitem = document.getElementById('todo-item');
@@ -43,3 +43,4 @@ function edititem(e){
     e.parentNode.firstChild.nodeValue = editvalue;
     
 }
+*/
