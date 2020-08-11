@@ -44,3 +44,43 @@ function edititem(e){
     
 }
 */
+function check(){
+    var score = 0;
+    var Q1rightanswer = document.getElementById('q1a2');
+    var Q2rightanswer = document.getElementById('q2a1');
+    var Q3rightanswer = document.getElementById('q3a4');
+    var Q4rightanswer = document.getElementById('q4a3');
+    if(Q1rightanswer.checked == true){
+        alert("your answer is write");
+        score = score+5;
+        
+    }
+    else if(Q2rightanswer.checked == true){
+        alert("your answer is write");
+        score = score+5;
+    }
+    else if(Q3rightanswer.checked == true){
+        alert("your answer is write");
+        score = score+5;
+    }
+    else if(Q4rightanswer.checked == true){
+        alert("your answer is write");
+        score = score+5;
+    }
+    else{
+        alert("your answer is wrong");
+        score = score-5;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
