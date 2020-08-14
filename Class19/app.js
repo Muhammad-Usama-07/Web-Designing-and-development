@@ -78,5 +78,5 @@ var webcouse = {
     t3: "basit"
 
 }
-
+webcouse.t4 = "javaid";
 console.log(webcouse);
