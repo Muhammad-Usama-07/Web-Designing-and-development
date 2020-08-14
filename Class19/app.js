@@ -82,3 +82,24 @@ webcouse.t4 = "javaid";
 webcouse.t5 = 2234;
 webcouse.class = [19, 20]
 console.log(webcouse);
+
+var myQues = [{
+        question: "what is your name?",
+        answer: {
+            a: "ali",
+            b: "ghouse",
+            c: "basit"
+        },
+        correctAns: "c"
+    },
+    {
+        question: "what is age?",
+        answer: {
+            a: 12,
+            b: 14,
+            c: 15
+        },
+        correctAns: "c"
+    },
+
+]
