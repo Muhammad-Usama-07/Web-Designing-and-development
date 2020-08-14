@@ -43,7 +43,7 @@ function edititem(e){
     e.parentNode.firstChild.nodeValue = editvalue;
     
 }
-*/
+
 function check(){
     var score = 0;
     var Q1rightanswer = document.getElementById('q1a2');
@@ -71,7 +71,7 @@ function check(){
         alert("your answer is wrong");
         score = score-5;
     }
-}
+}*/
 
 
 
