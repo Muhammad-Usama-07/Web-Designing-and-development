@@ -72,15 +72,11 @@ function check(){
         score = score-5;
     }
 }*/
+var webcouse = {
+    t1: "ali",
+    t2: "ghouse",
+    t3: "basit"
 
+}
 
-
-
-
-
-
-
-
-
-
-
+console.log(webcouse);
