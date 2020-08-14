@@ -80,4 +80,5 @@ var webcouse = {
 }
 webcouse.t4 = "javaid";
 webcouse.t5 = 2234;
+webcouse.class = [19, 20]
 console.log(webcouse);
