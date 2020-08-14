@@ -79,4 +79,5 @@ var webcouse = {
 
 }
 webcouse.t4 = "javaid";
+webcouse.t5 = 2234;
 console.log(webcouse);
