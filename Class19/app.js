@@ -71,7 +71,7 @@ function check(){
         alert("your answer is wrong");
         score = score-5;
     }
-}*/
+}
 var webcouse = {
     t1: "ali",
     t2: "ghouse",
@@ -102,4 +102,41 @@ var myQues = [{
         correctAns: "c"
     },
 
-]
+]*/
+
+function Course(t1,t2,t3){
+    this.t1 = t1;
+    this.t2 = t2;
+    this.t3 = t3;
+}
+var xyz = new Course("Basit", "ali", "aaaa");
+console.log(xyz)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
