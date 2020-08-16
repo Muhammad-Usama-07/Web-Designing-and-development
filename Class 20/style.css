@@ -5,3 +5,20 @@
     width: 100vh;
     height: 100vh;
 }
+
+.quiz {
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 60px auto;
+}
+
+.header {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body {
+    background-color: coral;
+}
