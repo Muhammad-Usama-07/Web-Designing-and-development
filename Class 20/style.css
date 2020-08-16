@@ -21,4 +21,13 @@
 
 .body {
     background-color: coral;
+    padding: 50px;
+}
+
+.option {
+    list-style-type: none;
+    background-color: white;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
 }
