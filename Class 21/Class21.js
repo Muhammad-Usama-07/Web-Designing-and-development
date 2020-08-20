@@ -90,4 +90,13 @@ function removeFirebasedata() {
     firebase.database().ref('student/-MFAp5NpTFBmPypcbq2V').remove();
 }
 
-removeFirebasedata()
+//removeFirebasedata()
+
+function editfirebasedata() {
+    firebase.database().ref('student/-MFAojlRDWm-DSZoy3Ai').set({
+        key: "-MFAojlRDWm-DSZoy3Ai",
+        name: 'Ali',
+        roll: 444
+    })
+}
+editfirebasedata()
