@@ -52,7 +52,7 @@ for (var prop in student) {
     console.log(student[prop])
 }
 
-*/
+
 
 // Method 2 check property is exits or not.
 var student = {
@@ -62,3 +62,5 @@ var student = {
 }
 
 console.log(student.hasOwnProperty("name2"))
+
+*/
