@@ -38,7 +38,7 @@ for (var prop in student) {
     console.log(prop)
 }
 
-*/
+
 
 // print all value of property of object.
 
@@ -51,3 +51,5 @@ var student = {
 for (var prop in student) {
     console.log(student[prop])
 }
+
+*/
