@@ -80,7 +80,7 @@ function saveData() {
 }
 
 function getfirebasedata() {
-    firebase.database().ref('student/-MFAogzqMQQ-_vVuZyb1').once('value', function(data) {
+    firebase.database().ref('student').on('child_added', function(data) {
         console.log(data.val())
     })
 }
