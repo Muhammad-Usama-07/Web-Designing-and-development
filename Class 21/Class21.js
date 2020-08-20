@@ -53,3 +53,12 @@ for (var prop in student) {
 }
 
 */
+
+// Method 2 check property is exits or not.
+var student = {
+    name: "basit",
+    roll: 134,
+    name2: "saylani"
+}
+
+console.log(student.hasOwnProperty("name2"))
