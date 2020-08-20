@@ -12,7 +12,7 @@ console.log(student.getname())
 Student.prototype.getname = function() {
     return this.name;
 }
-*/
+
 
 
 // check property is exits or not.
@@ -23,3 +23,5 @@ var student = {
 }
 
 console.log("roll" in student)
+
+*/
