@@ -78,3 +78,11 @@ function saveData() {
     firebase.database().ref('student/' + key).set(student)
 
 }
+
+function getfirebasedata() {
+    firebase.database().ref('student/-MFAogzqMQQ-_vVuZyb1').once('value', function(data) {
+        console.log(data.val())
+    })
+}
+
+getfirebasedata()
