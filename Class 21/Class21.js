@@ -85,4 +85,9 @@ function getfirebasedata() {
     })
 }
 
-getfirebasedata()
+// getfirebasedata()
+function removeFirebasedata() {
+    firebase.database().ref('student/-MFAp5NpTFBmPypcbq2V').remove();
+}
+
+removeFirebasedata()
