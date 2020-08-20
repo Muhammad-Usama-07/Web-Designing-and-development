@@ -39,3 +39,15 @@ for (var prop in student) {
 }
 
 */
+
+// print all value of property of object.
+
+var student = {
+    name: "basit",
+    roll: 134,
+    name2: "saylani"
+}
+
+for (var prop in student) {
+    console.log(student[prop])
+}
