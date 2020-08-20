@@ -73,5 +73,6 @@ function saveData() {
         roll: roll.value
 
     }
-    firebase.database().ref('students').push(student);
+    var key = Math.random() * 2;
+    firebase.database().ref('students/' + key.toFixed()).push(student);
 }
