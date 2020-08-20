@@ -73,5 +73,5 @@ function saveData() {
         roll: roll.value
 
     }
-    firebase.database().ref('student').set(student);
+    firebase.database().ref('students').child("student1").set(student);
 }
