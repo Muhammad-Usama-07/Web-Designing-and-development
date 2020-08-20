@@ -13,3 +13,13 @@ Student.prototype.getname = function() {
     return this.name;
 }
 */
+
+
+// check property is exits or not.
+
+var student = {
+    name: "basit",
+    roll: 134
+}
+
+console.log("roll" in student)
