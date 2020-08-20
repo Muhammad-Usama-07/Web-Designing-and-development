@@ -24,7 +24,7 @@ var student = {
 
 console.log("roll" in student)
 
-*/
+
 
 // print all properties in object.
 
@@ -37,3 +37,5 @@ var student = {
 for (var prop in student) {
     console.log(prop)
 }
+
+*/
