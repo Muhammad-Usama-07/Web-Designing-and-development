@@ -63,7 +63,7 @@ var student = {
 
 console.log(student.hasOwnProperty("name2"))
 
-*/
+
 
 function saveData() {
     var name = document.getElementById('name');
@@ -99,4 +99,4 @@ function editfirebasedata() {
         roll: 444
     })
 }
-editfirebasedata()
+editfirebasedata()*/
