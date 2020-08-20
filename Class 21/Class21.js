@@ -68,11 +68,13 @@ console.log(student.hasOwnProperty("name2"))
 function saveData() {
     var name = document.getElementById('name');
     var roll = document.getElementById('roll');
+    var key = firebase.database().ref('Todo app data/').push().key;
     var student = {
         name: name.value,
-        roll: roll.value
+        roll: roll.value,
+        key: key
 
     }
-    var key = Math.random() * 2;
-    firebase.database().ref('students/' + key.toFixed()).push(student);
+    firebase.database().ref('student/' + key).set(student)
+
 }
