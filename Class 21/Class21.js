@@ -25,3 +25,15 @@ var student = {
 console.log("roll" in student)
 
 */
+
+// print all properties in object.
+
+var student = {
+    name: "basit",
+    roll: 134,
+    name2: "saylani"
+}
+
+for (var prop in student) {
+    console.log(prop)
+}
