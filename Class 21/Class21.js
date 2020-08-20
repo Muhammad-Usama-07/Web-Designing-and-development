@@ -1,5 +1,5 @@
 // Constructor function
-
+/*
 function Student(name, roll) {
     this.name = name;
     this.roll = roll;
@@ -12,3 +12,4 @@ console.log(student.getname())
 Student.prototype.getname = function() {
     return this.name;
 }
+*/
