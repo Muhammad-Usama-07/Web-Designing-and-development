@@ -8,7 +8,13 @@ function addtodo() {
         // Connecting Firebase Database.
         //*****************************/
         var key = firebase.database().ref('Todo app data/').push().key;
+        var student = {
+            Task: todoitem.value,
+            key: key
 
+        }
+        firebase.database().ref('Todo app data/' + key).set(student)
+            // Data Added //
 
         // creating li tag with text node 
         var li = document.createElement('li');
