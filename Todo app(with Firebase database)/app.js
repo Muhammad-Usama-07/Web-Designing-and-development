@@ -106,7 +106,13 @@ function deletbtun(e) {
 }
 
 function deletall() {
-    list.innerHTML = "";
+    var todoitem = document.getElementById('todo-item');
+    if (todoitem.value == "") {
+        alert("Please enter any value")
+    } else {
+        firebase.database().ref('Todo app data/').remove();
+        list.innerHTML = "";
+    }
 }
 
 function edititem(e) {
