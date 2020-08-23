@@ -45,10 +45,9 @@ function addtodo() {
         //***********************/
 
 
-
         // creating li tag with text node 
         var li = document.createElement('li');
-        var litest = document.createTextNode(todoitem.value)
+        var litest = document.createTextNode(arrr)
         li.appendChild(litest);
 
         // creating delet button  
@@ -78,6 +77,31 @@ function addtodo() {
 }
 
 function deletbtun(e) {
+    var task;
+    var keyy;
+    var todoItem = document.getElementById("Todo-item");
+    var val = e.parentNode.firstChild.nodeValue;
+
+    var ref = firebase.database().ref('Todo app data');
+    ref.on('value', gotdata)
+
+    function gotdata(data) {
+        console.log(data.val())
+        var todoappdata = data.val();
+        var keyss = Object.keys(todoappdata);
+        console.log(keyss);
+        for (var i = 0; i < keyss.length; i++) {
+            var k = keyss[i];
+            task = todoappdata[k].Task;
+            keyy = todoappdata[k].key;
+            console.log(task, keyy);
+            if (task == val) {
+                firebase.database().ref('Todo app data/' + k).remove();
+            }
+
+        }
+
+    }
     e.parentNode.remove();
 }
 
