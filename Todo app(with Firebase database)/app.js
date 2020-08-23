@@ -110,8 +110,36 @@ function deletall() {
 }
 
 function edititem(e) {
-    var val = e.parentNode.firstChild.nodeValue
-    var editvalue = prompt("Enter new Value:", val);
-    e.parentNode.firstChild.nodeValue = editvalue;
+    var task;
+    var keyy;
+    var todoItem = document.getElementById("Todo-item");
+    var val = e.parentNode.firstChild.nodeValue;
+
+
+    var ref = firebase.database().ref('Todo app data');
+    ref.on('value', gotdata)
+
+    function gotdata(data) {
+        console.log(data.val())
+        var todoappdata = data.val();
+        var keyss = Object.keys(todoappdata);
+        console.log(keyss);
+        for (var i = 0; i < keyss.length; i++) {
+            var k = keyss[i];
+            task = todoappdata[k].Task;
+            keyy = todoappdata[k].key;
+            console.log(task, keyy);
+            if (task == val) {
+                var editValue = prompt("Enter Edit Value!", val);
+                e.parentNode.firstChild.nodeValue = editValue;
+                firebase.database().ref('Todo app data/' + k).set({
+                    Task: e.parentNode.firstChild.nodeValue,
+                    key: k
+                })
+            }
+
+        }
+
+    }
 
 }
