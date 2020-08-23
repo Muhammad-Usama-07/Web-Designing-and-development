@@ -6,5 +6,7 @@ function press() {
         // window.location.reload(false) // cache reloading.
         // window.location.reload(true) // server reloading.
     var contend = "you Login "
-    window.open().document.write(contend)
+        // window.open().document.write(contend)
+    window.open('https://www.google.com/')
+
 }
