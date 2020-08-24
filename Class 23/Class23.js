@@ -13,8 +13,8 @@
 // console.log(student2)
 
 
-var student1 = { name: "ghous" };
-var student2 = {...student1, school: "Saylani" };
+// var student1 = { name: "ghous" };
+// var student2 = {...student1, school: "Saylani" };
 
-// var merge = student1.concat(student2);
-console.log(student2)
+// // var merge = student1.concat(student2);
+// console.log(student2)
