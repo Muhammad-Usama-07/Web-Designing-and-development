@@ -7,7 +7,7 @@
 // Spread Operator
 
 var student1 = ["ghous", "basit"];
-var student2 = ["ahmed", "umair"];
+var student2 = [...student1, "ahmed", "umair"];
 
-var merge = student1.concat(student2);
-console.log(merge)
+// var merge = student1.concat(student2);
+console.log(student2)
