@@ -48,3 +48,22 @@
 
 // console.log("Number 2");
 // console.log("Number 3");
+
+// Promise
+// *******
+
+var promise = new Promise(function(resolve, reject) {
+    var zinger = "available";
+    if (zinger === "available") {
+        resolve("zinger has been eated")
+    } else {
+        reject("not eaten")
+    }
+})
+
+promise.then(function(data) {
+        console.log(data)
+    })
+    .catch(function() {
+        console.log(error)
+    })
