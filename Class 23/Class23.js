@@ -42,9 +42,9 @@
 // Async or Sync
 //*************/
 
-setTimeout(function() {
-    console.log("Number 1")
-}, 1000);
+// setTimeout(function() {
+//     console.log("Number 1")
+// }, 1000);
 
-console.log("Number 2");
-console.log("Number 3");
+// console.log("Number 2");
+// console.log("Number 3");
