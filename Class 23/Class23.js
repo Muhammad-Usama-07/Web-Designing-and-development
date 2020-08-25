@@ -35,6 +35,11 @@
 // Terany Object
 //**************
 
+// var age = 20;
+// var check = age > 30 || age < 50 ? "greater than 30" : "less than 30";
+// console.log(check);
+
 var age = 20;
-var check = age > 30 || age < 50 ? "greater than 30" : "less than 30";
+var check = age > 30 || age < 50 ? "greater than 30" :
+    age <= 40 ? "greater than and less than 50" : "less than 30";
 console.log(check);
