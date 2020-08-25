@@ -31,3 +31,10 @@
 // console.log(name);
 // console.log(school);
 // console.log(roll);
+
+// Terany Object
+//**************
+
+var age = 20;
+var check = age > 30 ? "greater than 30" : "less than 30";
+console.log(check);
