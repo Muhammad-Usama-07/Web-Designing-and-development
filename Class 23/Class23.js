@@ -21,13 +21,13 @@
 
 // Object Destructuirng
 //*********************
-var student = {
-    name: "Usama",
-    school: "Saylani",
-    roll: 123
-}
+// var student = {
+//     name: "Usama",
+//     school: "Saylani",
+//     roll: 123
+// }
 
-let { name, school, roll } = student;
-console.log(name);
-console.log(school);
-console.log(roll);
+// let { name, school, roll } = student;
+// console.log(name);
+// console.log(school);
+// console.log(roll);
