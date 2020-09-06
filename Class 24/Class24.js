@@ -13,7 +13,7 @@
 
 // Arrow function
 
-let hello = (name) => {
+let hello = name => {
     console.log(`hello ${name}`)
 }
 hello("ghous")
