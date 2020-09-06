@@ -10,3 +10,10 @@
 //     console.log("helloo")
 // }
 // fo()
+
+// Arrow function
+
+let hello = () => {
+    console.log("arrow function")
+}
+hello()
