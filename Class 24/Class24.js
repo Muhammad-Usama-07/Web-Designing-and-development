@@ -6,7 +6,7 @@
 
 // Function Expression
 
-let fo = function() {
-    console.log("helloo")
-}
-fo()
+// let fo = function() {
+//     console.log("helloo")
+// }
+// fo()
