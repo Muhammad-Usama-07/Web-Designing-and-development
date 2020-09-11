@@ -58,10 +58,20 @@
 // Search Method
 // *************
 
-let name = "Ghous";
-let search = "G";
+// let name = "Ghous";
+// let search = "G";
 
-if (name.startsWith(search)) {
+// if (name.startsWith(search)) {
+//     console.log("Working")
+// } else {
+//     console.log("Notworking")
+// }
+
+
+let name = "Ghous";
+let search = "s";
+
+if (name.endsWith(search)) {
     console.log("Working")
 } else {
     console.log("Notworking")
