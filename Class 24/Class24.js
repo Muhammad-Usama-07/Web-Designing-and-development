@@ -25,3 +25,14 @@
 
 // Call Back & Higher order function
 // *********************************
+
+let getData = (render_data) => {
+    setTimeout(() => {
+        render_data("Ghous")
+    }, 3000)
+}
+let render_data = (name) => {
+    console.log(name)
+}
+
+getData(render_data)
