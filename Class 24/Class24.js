@@ -54,3 +54,6 @@
 // let filter = arr.filter(a => a.age > 10)
 
 // console.log(filter)
+
+// Search Method
+// *************
