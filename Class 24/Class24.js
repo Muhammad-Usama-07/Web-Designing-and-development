@@ -49,8 +49,8 @@
 
 // console.log(filter)
 
-let arr = [{ name: "ghous", age: 30 }, { name: "basit", age: 20 }]
+// let arr = [{ name: "ghous", age: 30 }, { name: "basit", age: 20 }]
 
-let filter = arr.filter(a => a.age > 10)
+// let filter = arr.filter(a => a.age > 10)
 
-console.log(filter)
+// console.log(filter)
