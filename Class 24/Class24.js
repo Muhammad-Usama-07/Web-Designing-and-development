@@ -44,7 +44,7 @@
 let arr = [{ name: "ghous", age: 30 }, { name: "basit", age: 20 }]
 
 let filter = arr.filter(function(a) {
-    return true
+    return a.age === 20;
 })
 
 console.log(filter)
