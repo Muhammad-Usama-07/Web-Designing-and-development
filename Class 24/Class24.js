@@ -68,11 +68,11 @@
 // }
 
 
-let name = "Ghous";
-let search = "s";
+// let name = "Ghous";
+// let search = "s";
 
-if (name.endsWith(search)) {
-    console.log("Working")
-} else {
-    console.log("Notworking")
-}
+// if (name.endsWith(search)) {
+//     console.log("Working")
+// } else {
+//     console.log("Notworking")
+// }
