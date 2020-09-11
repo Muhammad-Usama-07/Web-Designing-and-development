@@ -80,7 +80,13 @@
 // Array Map
 // *********
 
-var arr = [1, 2, 3, 4]
+// var arr = [1, 2, 3, 4]
+// console.log(arr)
+// var multiplyarray = arr.map(a => a * 2)
+// console.log(multiplyarray)
+
+
+var arr = [{ name: "Ghous" }, { name: "basit" }]
 console.log(arr)
-var multiplyarray = arr.map(a => a * 2)
+var multiplyarray = arr.map(a => a.name = "Umair")
 console.log(multiplyarray)
