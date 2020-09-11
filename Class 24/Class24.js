@@ -102,6 +102,14 @@ class Student {
     }
 }
 
-let student1 = new Student("ghous", "ghous@gmail.com");
+// Merging
+class School extends Student {
+    constructor(name, email, school) {
+        super(name, email);
+        this.school = school;
+    }
+}
+
+let student1 = new School("ghous", "ghous@gmail.com", "Saylani");
 
 console.log(student1)
