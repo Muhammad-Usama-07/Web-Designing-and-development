@@ -76,3 +76,11 @@
 // } else {
 //     console.log("Notworking")
 // }
+
+// Array Map
+// *********
+
+var arr = [1, 2, 3, 4]
+console.log(arr)
+var multiplyarray = arr.map(a => a * 2)
+console.log(multiplyarray)
