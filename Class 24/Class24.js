@@ -86,7 +86,7 @@
 // console.log(multiplyarray)
 
 
-var arr = [{ name: "Ghous" }, { name: "basit" }]
-console.log(arr)
-var multiplyarray = arr.map(a => a.name = "Umair")
-console.log(multiplyarray)
+// var arr = [{ name: "Ghous" }, { name: "basit" }]
+// console.log(arr)
+// var multiplyarray = arr.map(a => a.name = "Umair")
+// console.log(multiplyarray)
