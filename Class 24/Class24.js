@@ -21,3 +21,7 @@
 // let hello = () => "Ghous"
 
 // console.log(hello())
+
+
+// Call Back & Higher order function
+// *********************************
