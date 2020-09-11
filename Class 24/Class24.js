@@ -23,16 +23,19 @@
 // console.log(hello())
 
 
-// Call Back & Higher order function
-// *********************************
+// Call Back
+// *********
 
-let getData = (render_data) => {
-    setTimeout(() => {
-        render_data("Ghous")
-    }, 3000)
-}
-let render_data = (name) => {
-    console.log(name)
-}
+// let getData = (render_data) => {
+//     setTimeout(() => {
+//         render_data("Ghous")
+//     }, 3000)
+// }
+// let render_data = (name) => {
+//     console.log(name)
+// }
 
-getData(render_data)
+// getData(render_data)
+
+//  Higher order function(Array Function)
+//  *************************************
