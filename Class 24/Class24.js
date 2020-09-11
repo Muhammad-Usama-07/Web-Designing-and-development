@@ -39,3 +39,12 @@
 
 //  Higher order function(Array Function)
 //  *************************************
+
+
+let arr = [{ name: "ghous", age: 30 }, { name: "basit", age: 20 }]
+
+let filter = arr.filter(function(a) {
+    return true
+})
+
+console.log(filter)
