@@ -18,6 +18,6 @@
 // }
 // hello("ghous", "basit")
 
-let hello = () => "Ghous"
+// let hello = () => "Ghous"
 
-console.log(hello())
+// console.log(hello())
