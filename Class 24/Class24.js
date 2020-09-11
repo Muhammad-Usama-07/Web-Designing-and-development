@@ -17,3 +17,7 @@
 //     console.log(`hello ${name1} and ${name2}`)
 // }
 // hello("ghous", "basit")
+
+let hello = () => "Ghous"
+
+console.log(hello())
