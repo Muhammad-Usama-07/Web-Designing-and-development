@@ -94,3 +94,14 @@
 
 // ES6 Classes
 // ***********
+
+class Student {
+    constructor(name, email) {
+        this.name = name;
+        this.email = email;
+    }
+}
+
+let student1 = new Student("ghous", "ghous@gmail.com");
+
+console.log(student1)
