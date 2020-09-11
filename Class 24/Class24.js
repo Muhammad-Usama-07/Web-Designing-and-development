@@ -90,3 +90,7 @@
 // console.log(arr)
 // var multiplyarray = arr.map(a => a.name = "Umair")
 // console.log(multiplyarray)
+
+
+// ES6 Classes
+// ***********
