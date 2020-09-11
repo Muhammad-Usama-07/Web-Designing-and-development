@@ -57,3 +57,12 @@
 
 // Search Method
 // *************
+
+let name = "Ghous";
+let search = "G";
+
+if (name.startsWith(search)) {
+    console.log("Working")
+} else {
+    console.log("Notworking")
+}
