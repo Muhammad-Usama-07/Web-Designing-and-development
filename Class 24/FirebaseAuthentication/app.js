@@ -1,4 +1,4 @@
-let signup = () => {
+/*let signup = () => {
     let email = document.getElementById("email");
     let password = document.getElementById("pass");
     firebase.auth().createUserWithEmailAndPassword(email.value, password.value)
@@ -13,3 +13,4 @@ let signup = () => {
         });
 
 }
+*/
