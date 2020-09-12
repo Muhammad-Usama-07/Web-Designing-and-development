@@ -5,4 +5,7 @@
    .catch : use to get data from API
 4) await 
 5) Classes
+6) Class Merging
+7) Firebase Authentication
+
 
