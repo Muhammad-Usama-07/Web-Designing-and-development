@@ -95,21 +95,21 @@
 // ES6 Classes
 // ***********
 
-class Student {
-    constructor(name, email) {
-        this.name = name;
-        this.email = email;
-    }
-}
+// class Student {
+//     constructor(name, email) {
+//         this.name = name;
+//         this.email = email;
+//     }
+// }
 
-// Merging
-class School extends Student {
-    constructor(name, email, school) {
-        super(name, email);
-        this.school = school;
-    }
-}
+// // Merging
+// class School extends Student {
+//     constructor(name, email, school) {
+//         super(name, email);
+//         this.school = school;
+//     }
+// }
 
-let student1 = new School("ghous", "ghous@gmail.com", "Saylani");
+// let student1 = new School("ghous", "ghous@gmail.com", "Saylani");
 
-console.log(student1)
+// console.log(student1)
