@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBase Authentication</title>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+
+</head>
+
+<body>
+    <!-- Making Signup-->
+    <div class="form">
+        <input type="email" id="email" placeholder="Email">
+        <br/>
+        <input type="password" id="pass" placeholder="Password">
+        <br/>
+        <button onclick="signup()">Signup</button>
+    </div>
+
+    <div class="form">
+        <input type="email" id="loginemail" placeholder="Email">
+        <br/>
+        <input type="password" id="loginpass" placeholder="Password">
+        <br/>
+        <button onclick="login()">login</button>
+    </div>
+
+    <script src="app.js" type="text/javascript"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBiz48dJUEAy1nyzn7pR1BQgbamtyirvzA",
+            authDomain: "authentication-e5d94.firebaseapp.com",
+            databaseURL: "https://authentication-e5d94.firebaseio.com",
+            projectId: "authentication-e5d94",
+            storageBucket: "authentication-e5d94.appspot.com",
+            messagingSenderId: "853699646100",
+            appId: "1:853699646100:web:66d4ee1eebef71c1ba1a81",
+            measurementId: "G-7Z7NYNRXWZ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+
+</html>

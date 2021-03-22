@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.quiz {
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 60px auto;
+}
+
+.header {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body {
+    background-color: coral;
+    padding: 50px;
+}
+
+.option {
+    list-style-type: none;
+    background-color: white;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+}

@@ -1,0 +1,11 @@
+1) Filter : use for Searching things
+2) Arrar Map: make new array with update of old array
+3) .fatch
+   .then
+   .catch : use to get data from API
+4) await 
+5) Classes
+6) Class Merging
+7) Firebase Authentication
+
+
