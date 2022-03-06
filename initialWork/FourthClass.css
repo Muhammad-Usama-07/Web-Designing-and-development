@@ -1,0 +1,27 @@
+*{
+    
+    color: coral;
+}
+.bio{
+    
+    background-color: aqua
+}
+
+#hello{
+    
+    background-color: aquamarine;
+}
+li>a{
+    
+    color: blueviolet;
+    background-color: aqua;
+}
+p b{
+    color: blueviolet;
+    background-color: aqua;
+}
+
+h1~p{
+    
+    background-color: brown;
+}
