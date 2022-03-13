@@ -11,3 +11,4 @@ Fields covered  so far..
 ###### [3. Class 12 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2012)
 ###### [4. Class 13 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2013%20Work)
 ###### [5. Class 15 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2015)
+###### [6. Class 16 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2016)
