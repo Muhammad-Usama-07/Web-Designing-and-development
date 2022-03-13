@@ -23,3 +23,5 @@ Fields covered  so far..
 ###### [15. Class 25 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2025)
 
 ## Small Applications
+
+###### [Calculator App with UI](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Calculator%20with%20UI)
