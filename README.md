@@ -7,3 +7,4 @@ Fields covered  so far..
 ## Basic Web development
 
 ###### [1. Class 04 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2004)
+###### [1. Class 06 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2006)
