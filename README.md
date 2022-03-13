@@ -26,3 +26,4 @@ Fields covered  so far..
 
 ###### [Calculator App](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Calculator%20with%20UI)
 ###### [Quiz App](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Quiz%20app)
+###### [Stop Watch](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/StopWatch%20Assign)
