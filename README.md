@@ -21,6 +21,8 @@ Fields covered  so far..
 ###### [13. Class 23 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2023)
 ###### [14. Class 24 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2024)
 ###### [15. Class 25 work](https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-JavaScript-Work/Class%2025)
+###### [16. Chapter 26-30]（https://github.com/Muhammad-Usama-07/Web-Designing-and-development/tree/master/Complete-Javascript-Work-Part2/Chapter%2026-30%20Assign）
+
 
 ## Small Applications
 
